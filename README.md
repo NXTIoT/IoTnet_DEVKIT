@@ -1,4 +1,4 @@
-IoTnet_DEVKIT
+NXTIoT_DEVKIT
 =============
 
 -	[Introducción](#introducción)
