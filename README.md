@@ -341,6 +341,14 @@ Una vez creada la cuenta la dejamos abierta y accedemos al backend para visualiz
 
 ![aws1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws1.png?raw=true)
 
+en la columna del lado izquierdo damos click en "Callbacks"
+
+![aws2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws2.png?raw=true)
+
+enseguida, en la parte superior derecha, daremos click en "NEW" y de las diferentes opciones de callbacks, seleccionaremos "AWS IoT"
+
+![aws3](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws3.png?raw=true)
+
 ### Integración con Ubidots
 
 Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
