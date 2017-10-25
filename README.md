@@ -333,6 +333,10 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ### Integración con Amazon Web Services
 
+Ahora es el turno de hacer la integración con la plataforma de Amazon Web Services (AWS). Se utilizará el ejemplo del sensor de temperatura, sin embargo puede utilizarse el ejemplo del sensor ultrasónico.
+
+Creamos una cuenta en la plataforma de [Amazon](https://aws.amazon.com/es/)
+
 ### Integración con Ubidots
 
 Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
