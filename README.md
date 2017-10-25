@@ -361,9 +361,19 @@ ahora tenemos que configurar "Specify Details", donde necesitaremos nuestro "Acc
 
 ![aws6](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws6.png?raw=true)
 
-Seleccionamos un nombre para nuestro estack. Copiamos nustro "Account number" y lo pegamos en "AWSAccountId". Ahora necesitaremos el External ID que nos proporciona sigfox en el backend. Regresamos al backend, lo copiamos y lo pegamos en "ExternalId". Dejamos la region como "us-east-1" y escribimos un "Topic name".
+Seleccionamos un nombre para nuestro Stack. Copiamos nuestro "Account number" y lo pegamos en "AWSAccountId" en la pagina de AWS. Ahora necesitaremos el External ID que nos proporciona sigfox en el backend. Regresamos al backend, lo copiamos y lo pegamos en "ExternalId". Dejamos la region como "us-east-1" y escribimos un "Topic name". Damos click en next
 
 ![aws7](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws7.png?raw=true)
+
+En la parte de "Options", no modificamos nada y damos click en "Next". Finalmente en el "Review", seleccionamos "I acknowledge that AWS CloudFormation might create IAM resources" y seleccionamos "Create"
+
+![aws8](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws8.png?raw=true)
+
+Despues de unos minutos estara creado nuestro Stack. Con esto ya queda configurada la parte de AWS del Callback.
+
+![aws9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws9.png?raw=true)
+
+Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca la leyenda "Create_complete", seleccionamos nuestro Stack y nos vamos a la pestaña "Outputs". Copiamos el "ARNRole" y regresamos al backend. 
 
 ### Integración con Ubidots
 
