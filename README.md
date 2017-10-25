@@ -339,7 +339,7 @@ Creamos una cuenta en la plataforma de [Amazon](https://aws.amazon.com/es/)
 
 Una vez creada la cuenta la dejamos abierta y accedemos al backend para visualizar nuestro dispositivo. Damos click en el "Device type"
 
-![aws1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/aws1.png?raw=true)
+![aws1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws1.png?raw=true)
 
 ### Integración con Ubidots
 
