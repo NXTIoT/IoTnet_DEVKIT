@@ -337,6 +337,8 @@ Ahora es el turno de hacer la integración con la plataforma de Amazon Web Servi
 
 Creamos una cuenta en la plataforma de [Amazon](https://aws.amazon.com/es/)
 
+Una vez creada la cuenta la dejamos abierta y accedemos al backend para visualizar nuestro dispositivo.  
+
 ### Integración con Ubidots
 
 Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
