@@ -353,6 +353,18 @@ ahora tendremos que configurar el callback hacia AWS. Tener en cuenta el "Extern
 
 ![aws4](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws4.png?raw=true)
 
+a continuación nos abrirá una pagina donde configuraremos el STACK creado en AWS. En la esquina superior derecha seleccionaremos nuestra region, en este caso se seleccionó "US East (N. Virginia)". En la parte de "Select template" dejamos todo como está y damos click en "Next"
+
+![aws5](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws5.png?raw=true)
+
+ahora tenemos que configurar "Specify Details", donde necesitaremos nuestro "AccountId", el cual podemos obtener en la esquina superior derecha, en Support-> Support Center
+
+![aws6](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws6.png?raw=true)
+
+Seleccionamos un nombre para nuestro estack. Copiamos nustro "Account number" y lo pegamos en "AWSAccountId". Ahora necesitaremos el External ID que nos proporciona sigfox en el backend. Regresamos al backend, lo copiamos y lo pegamos en "ExternalId". Dejamos la region como "us-east-1" y escribimos un "Topic name".
+
+![aws7](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws7.png?raw=true)
+
 ### Integración con Ubidots
 
 Ahora toca la integración con la plataforma Ubidots. Al igual que en los ejemplos pasados, en este también se utilizará la práctica del sensor de temperatura. Lo primero que se debe hacer es crear una cuenta en el siguiente link [ubidots](https://app.ubidots.com/accounts/signup/).
