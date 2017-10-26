@@ -419,13 +419,27 @@ ahora debemos crear una regla que nos permita enviar enviar los datos recividos 
 ![aws16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws16.png?raw=true)
 
 y seleccionamos "ACT"
+
 ![aws17](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws17.png?raw=true)
 
+le asignamos el mismo nombre que nuestro Stack, y agregamos una pequeña descripcion (opcional)
 
 ![aws18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws18.png?raw=true)
+
+en el campo "Attribute" escribimos * y en topic filter, escribimos "sigfox"
+
 ![aws19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws19.png?raw=true)
+
+ahora agregamos la acción que queremos que haga con el dato que llega. Seleccionamos "Add action"
+
 ![aws20](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws20.png?raw=true)
+
+y escogemos "DynamoDB"
+
 ![aws21](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws21.png?raw=true)
+
+posteriormente, tenemos que configurar la acción de insertar los datos en DynamoDB. Seleccionamos nuestra tabla creada anteriormente y escribimos ${device} en "Hash key value", $ {timestamp()} en "Range key value" y "payload" en "Write message data to this column"
+
 ![aws22](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws22.png?raw=true)
 ![aws23](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws23.png?raw=true)
 ![aws24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws24.png?raw=true)
