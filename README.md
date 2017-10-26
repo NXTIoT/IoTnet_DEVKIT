@@ -441,10 +441,25 @@ y escogemos "DynamoDB"
 posteriormente, tenemos que configurar la acción de insertar los datos en DynamoDB. Seleccionamos nuestra tabla creada anteriormente y escribimos ${device} en "Hash key value", $ {timestamp()} en "Range key value" y "payload" en "Write message data to this column"
 
 ![aws22](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws22.png?raw=true)
+
+Creamos un nuevo role dando click en "Create a new role"
+
 ![aws23](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws23.png?raw=true)
+
+y le asignamos el nombre "dynamodbsigfox" y damos click en "Add action"
+
 ![aws24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws24.png?raw=true)
+
+una vez creada, nos aparecera en nuestras reglas
+
 ![aws25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws25.png?raw=true)
+
+si le damos click nos mostrará las caracteristicas de la regla que hemos creado
+
 ![aws26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws26.png?raw=true)
+
+Finalmente, si nos regresamos a DynamoDB->Tables->sigfox->Items, podremos ver los mensajes que enviemos por medio de nuestro Devkit
+
 ![aws27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws27.png?raw=true)
 
 ### Integración con Ubidots
