@@ -353,7 +353,7 @@ ahora tendremos que configurar el callback hacia AWS. Tener en cuenta el "Extern
 
 ![aws4](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws4.png?raw=true)
 
-a continuación nos abrirá una pagina donde configuraremos el STACK creado en AWS. En la esquina superior derecha seleccionaremos nuestra region, en este caso se seleccionó "US East (N. Virginia)". En la parte de "Select template" dejamos todo como está y damos click en "Next"
+a continuación nos abrirá una pagina donde configuraremos el STACK creado en AWS. En la esquina superior derecha seleccionaremos la region, en este caso se seleccionó "US East (N. Virginia)". En la parte de "Select template" dejamos todo como está y damos click en "Next"
 
 ![aws5](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws5.png?raw=true)
 
@@ -373,10 +373,31 @@ Despues de unos minutos estara creado nuestro Stack. Con esto ya queda configura
 
 ![aws9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws9.png?raw=true)
 
-Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca la leyenda "Create_complete", seleccionamos nuestro Stack y nos vamos a la pestaña "Outputs". Copiamos el "ARNRole"
+Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca la leyenda "Create_complete", seleccionamos nuestro Stack y nos vamos a la pestaña "Outputs" y Copiamos el "ARNRole".
 
 ![aws10](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws10.png?raw=true)
 
+### Callback AWS
+
+Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que pusimos en nuestro Stack, escogemos la misma region (US East (N. Virginia)) y escribimos el sigiente json
+
+{
+  "device" : "{device}",
+  "data" : "{data}",
+  "time" : "{time}",
+  "snr" : "{snr}",
+  "station" : "{station}",
+  "avgSnr" : "{avgSnr}",
+  "lat" : "{lat}",
+  "lng" : "{lng}",
+  "rssi" : "{rssi}",
+  "seqNumber" : "{seqNumber}",
+  "temp" : "{customData#temp}"
+}
+
+![aws11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws11.png?raw=true)
+
+![aws12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws12.png?raw=true)
   
 
 ### Integración con Ubidots
