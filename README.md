@@ -35,6 +35,10 @@ NXTIoT_DEVKIT
 	
 	-	[Integración con Amazon Web Services](#integración-con-amazon-web-services)
 	
+		-	[Callback en AWS](#callback-aws)
+	
+		-	[Creación de una Tabla en DynamoDB](#creacion-de-una-tabla-en-dynamodb)
+	
 	-	[Integración con Ubidots](#integración-con-ubidots)
 	
 		- 	[Callback hacia Ubidots](#callback-hacia-ubidots)
