@@ -379,23 +379,24 @@ Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca l
 
 ### Callback AWS
 
-Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que pusimos en nuestro Stack, escogemos la misma region (US East (N. Virginia)) y escribimos el sigiente json
+Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que pusimos en nuestro Stack, escogemos la misma region (US East (N. Virginia)) y escribimos el siguiente json
 
-{
+<br />{
 <br /> "device" : "{device}",
 <br /> "data" : "{data}",
 <br /> "time" : "{time}",
-  "snr" : "{snr}",
-  "station" : "{station}",
-  "avgSnr" : "{avgSnr}",
-  "lat" : "{lat}",
-  "lng" : "{lng}",
-  "rssi" : "{rssi}",
-  "seqNumber" : "{seqNumber}",
-  "temp" : "{customData#temp}"
-}
+<br /> "snr" : "{snr}",
+<br />"station" : "{station}",
+<br /> "avgSnr" : "{avgSnr}",
+<br /> "lat" : "{lat}",
+<br /> "lng" : "{lng}",
+<br /> "rssi" : "{rssi}",
+<br /> "seqNumber" : "{seqNumber}",
+<br />}
 
 ![aws11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws11.png?raw=true)
+
+y damos click en OK. Con esto ya tenemos creado nuestro Callback en el backend. Para verificar que no hay ningun problema con la configuración, mandamos un mensaje hacia sigfox y observamos el indicador del callback,que debe quedar de color verde, lo que indica que se realizó de manera exitosa
 
 ![aws12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws12.png?raw=true)
   
