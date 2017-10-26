@@ -399,7 +399,26 @@ Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que p
 y damos click en OK. Con esto ya tenemos creado nuestro Callback en el backend. Para verificar que no hay ningun problema con la configuración, mandamos un mensaje hacia sigfox y observamos el indicador del callback,que debe quedar de color verde, lo que indica que se realizó de manera exitosa
 
 ![aws12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws12.png?raw=true)
-  
+
+### Creación de una Tabla en DynamoDB
+
+Ahora que tenemos nuestro Stack creado, vamos a crear una tabla por medio de DynamoDB con los datos que mandamos por medio de nuestro dispositivo.
+
+![aws13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws13.png?raw=true)
+![aws14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws14.png?raw=true)
+![aws15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws15.png?raw=true)
+![aws16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws16.png?raw=true)
+![aws17](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws17.png?raw=true)
+![aws18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws18.png?raw=true)
+![aws19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws19.png?raw=true)
+![aws20](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws20.png?raw=true)
+![aws21](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws21.png?raw=true)
+![aws22](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws22.png?raw=true)
+![aws23](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws23.png?raw=true)
+![aws24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws24.png?raw=true)
+![aws25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws25.png?raw=true)
+![aws26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws26.png?raw=true)
+![aws27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws27.png?raw=true)
 
 ### Integración con Ubidots
 
