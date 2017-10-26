@@ -382,9 +382,9 @@ Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca l
 Pegamos el "ARNRole" que obtuvimos de AWS. En "topic", escribimos el mismo que pusimos en nuestro Stack, escogemos la misma region (US East (N. Virginia)) y escribimos el sigiente json
 
 {
-  "device" : "{device}",
-  "data" : "{data}",
-  "time" : "{time}",
+<br /> "device" : "{device}",
+<br /> "data" : "{data}",
+<br /> "time" : "{time}",
   "snr" : "{snr}",
   "station" : "{station}",
   "avgSnr" : "{avgSnr}",
