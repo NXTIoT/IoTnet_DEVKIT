@@ -402,13 +402,26 @@ y damos click en OK. Con esto ya tenemos creado nuestro Callback en el backend. 
 
 ### Creación de una Tabla en DynamoDB
 
-Ahora que tenemos nuestro Stack creado, vamos a crear una tabla por medio de DynamoDB con los datos que mandamos por medio de nuestro dispositivo.
+Ahora que tenemos nuestro Stack creado, vamos a crear una tabla por medio de DynamoDB con los datos que mandamos por medio de nuestro dispositivo. Vamos a Services-> DynamoDB
 
 ![aws13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws13.png?raw=true)
+
+Ahora tenemos que configurar nuestra tabla. Le asignamos un nombre, escribimos "deviceid" en Partition Key, seleccionamos "Add sort key" y escribimos "timestamp" y damos click a create
+
 ![aws14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws14.png?raw=true)
+
+despues de unos minutos, se habrá creado nuestra tabla
+
 ![aws15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws15.png?raw=true)
+
+ahora debemos crear una regla que nos permita enviar enviar los datos recividos hacia nuestra tabla recien creada. Nos vamos a Services-> AWS IoT
+
 ![aws16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws16.png?raw=true)
+
+y seleccionamos "ACT"
 ![aws17](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws17.png?raw=true)
+
+
 ![aws18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws18.png?raw=true)
 ![aws19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws19.png?raw=true)
 ![aws20](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws20.png?raw=true)
