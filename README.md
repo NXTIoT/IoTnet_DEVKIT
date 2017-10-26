@@ -373,7 +373,11 @@ Despues de unos minutos estara creado nuestro Stack. Con esto ya queda configura
 
 ![aws9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws9.png?raw=true)
 
-Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca la leyenda "Create_complete", seleccionamos nuestro Stack y nos vamos a la pestaña "Outputs". Copiamos el "ARNRole" y regresamos al backend. Pegamos el "ARNRole" 
+Ahora falta terminar el Callback en el backend de Sigfox. Una vez que aparezca la leyenda "Create_complete", seleccionamos nuestro Stack y nos vamos a la pestaña "Outputs". Copiamos el "ARNRole"
+
+![aws10](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/aws10.png?raw=true)
+
+  
 
 ### Integración con Ubidots
 
