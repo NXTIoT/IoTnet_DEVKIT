@@ -4,7 +4,7 @@
 SoftwareSerial mySerial(0, 1); // RX, TX
 #endif
 
-const int sensorPin = A0;
+const int sensorPin = A5;
 const float baselinetime=20.0;
 const int boton=6;
 char RespuestaSigfox[50];
@@ -38,14 +38,20 @@ void leer_sensor()
   Serial.println(temp);
   //convierte el dato a bytes y lo agrega a nuestro mensaje a enviar
   byte* a1 = (byte*) &temp;  
-  String str1,str2,str3,str4;
-  str1=  String(a1[0], HEX);  
-  str2=  String(a1[1], HEX);
-  str3=  String(a1[2], HEX);
-  str4=  String(a1[3], HEX);
-  bufer+=0+str1+str2+str3+str4;
+  String str1;
+  for(int i=0;i<4;i++)
+  {
+    str1=String(a1[i], HEX);
+    if(str1.length()<2)
+    {
+      bufer+=0+str1;
+    }
+    else
+    {
+      bufer+=str1;
+    }
+  }
   bufer.toCharArray(payload,16);
-  //
   digitalWrite(7, HIGH);
   delay(1000);
   enviarcomandoATSigfox("AT");
