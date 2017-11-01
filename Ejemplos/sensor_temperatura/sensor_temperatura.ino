@@ -4,7 +4,7 @@
 SoftwareSerial mySerial(0, 1); // RX, TX
 #endif
 
-const int sensorPin = A5;
+const int sensorPin = A0;
 const float baselinetime=20.0;
 const int boton=6;
 char RespuestaSigfox[50];
@@ -30,7 +30,7 @@ void leer_sensor()
   String bufer="AT$SF=";
   char payload[20];
   int sensorVal=analogRead(sensorPin);
-  float voltaje=(sensorVal/1024.0)*3.3;
+  float voltaje=(sensorVal/1024.0)*5;
   Serial.print("Voltaje: ");
   Serial.println(voltaje); 
   Serial.print("Grados Cº: ");
