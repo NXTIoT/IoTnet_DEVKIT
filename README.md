@@ -68,6 +68,10 @@ Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jum
 
 ![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
 
+Una vez conectada la tarjeta, deberemos selecccionar la "Placa" y el "Puerto" en la pestaña de HERRAMIENTAS
+
+![con1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/con1.png?raw=true)
+
 una vez que se cargó el programa, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
 
 Ejemplos
