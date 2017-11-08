@@ -387,18 +387,18 @@ Ahora tendremos que configurar el Callback.
 <br /> - En "Connection string" pegamos la clave que copiamos de Azure.
 <br /> - En "JSON body" pegamos el siguiente codigo
 
-	<br />{
-	<br /> "device" : "{device}",
-	<br /> "data" : "{data}",
-	<br /> "time" : "{time}",
-	<br /> "snr" : "{snr}",
-	<br />"station" : "{station}",
-	<br /> "avgSnr" : "{avgSnr}",
-	<br /> "lat" : "{lat}",
-	<br /> "lng" : "{lng}",
-	<br /> "rssi" : "{rssi}",
-	<br /> "seqNumber" : "{seqNumber}",
-	<br />}
+<br />{
+<br /> "device" : "{device}",
+<br /> "data" : "{data}",
+<br /> "time" : "{time}",
+<br /> "snr" : "{snr}",
+<br />"station" : "{station}",
+<br /> "avgSnr" : "{avgSnr}",
+<br /> "lat" : "{lat}",
+<br /> "lng" : "{lng}",
+<br /> "rssi" : "{rssi}",
+<br /> "seqNumber" : "{seqNumber}",
+<br />}
 
 ![azure11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure11.png?raw=true)
 
