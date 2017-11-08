@@ -339,6 +339,10 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ### Integración con Microsoft Azure
 
+En esta sección realizaremos un Callback hacia Microsoft Azure utilizando el ejemplo del sensor de temperatura, para mandar la información y desplegarla en un dashboard donde podamos observar una gráfica de la temperatura con respecto al tiempo. Lo que necesitamos es:
+-Una cuenta en [Microsoft Azure](https://azure.microsoft.com/es-mx/) 
+-Un correo no personal (academico o de trabajo) para crear una cuenta de [Power BI](https://powerbi.microsoft.com/es-es/)
+
 ![azure1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure1.png?raw=true)
 
 ![azure2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure2.png?raw=true)
@@ -392,7 +396,18 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
-
+<br />{
+<br /> "device" : "{device}",
+<br /> "data" : "{data}",
+<br /> "time" : "{time}",
+<br /> "snr" : "{snr}",
+<br />"station" : "{station}",
+<br /> "avgSnr" : "{avgSnr}",
+<br /> "lat" : "{lat}",
+<br /> "lng" : "{lng}",
+<br /> "rssi" : "{rssi}",
+<br /> "seqNumber" : "{seqNumber}",
+<br />}
 
 ### Integración con Amazon Web Services
 
