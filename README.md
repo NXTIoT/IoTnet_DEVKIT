@@ -76,7 +76,7 @@ Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jum
 
 Una vez conectada la tarjeta, deberemos selecccionar la "Placa" y el "Puerto" en la pestaña de HERRAMIENTAS. Seleccionamos "Arduino/Genuino uno" como nuestra placa y deberemos seleccionar el puerto.
 
-En windows seleccionamos el puerto *COM* que nos habilitó nuestra tarjeta
+En Windows seleccionamos el puerto *COM* que nos habilitó nuestra tarjeta. *En ocaciones, puede tardar un momento en habilitar el puerto la primera vez*
 
 ![con1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/con1.png?raw=true)
 
