@@ -359,17 +359,32 @@ Despues de unos minutos, en las notificaciones nos mostrará un mensaje de que l
 
 ![azure5](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure5.png?raw=true)
 
-
+Enseguida nos mostrará la informacion de nuestro recurso creado.
 
 ![azure6](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure6.png?raw=true)
 
+Para poder realizar el Callback, necesitaremos la clave de acceso hacia nuestro recurso. Nos vamos a 
+<br /> Directivas de Acceso Compartido -> iothubowner -> Cadena de conexión (clave principal). Esta clave nos servira un poco mas adelante en la configuracion de nuestro callback en el backend
+
 ![azure7](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure7.png?raw=true)
+
+### Configuración del Callback
+
+Regresamos al backend de sigfox para crear el Callback. Nos vamos a nuestro dispositivo y damos click en el "Device Type"
 
 ![azure8](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure8.png?raw=true)
 
+En el panel de la izquierda damos click en Callbacks -> New
+
 ![azure9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure9.png?raw=true)
 
+De los posibles Callbacks, seleccionamos "Microsoft Azure Iot hub"
+
 ![azure10](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure10.png?raw=true)
+
+Ahora tendremos que configurar el Callback. 
+<br /> - En "Custom Payload Config" escribimos "temp::float:32:little-endian
+<br /> - En "Connection string" escribimos 
 
 ![azure11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure11.png?raw=true)
 
