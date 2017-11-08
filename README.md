@@ -390,25 +390,40 @@ Ahora tendremos que configurar el Callback.
 <br />{
 <br /> "device" : "{device}",
 <br /> "data" : "{data}",
+<br /> "temperatura" : "{customData#temp}",
 <br /> "time" : "{time}",
 <br /> "snr" : "{snr}",
 <br />"station" : "{station}",
-<br /> "avgSnr" : "{avgSnr}",
-<br /> "lat" : "{lat}",
-<br /> "lng" : "{lng}",
-<br /> "rssi" : "{rssi}",
+<br /> "avgSignal" : "{avgSnr}",
 <br /> "seqNumber" : "{seqNumber}",
 <br />}
 
+quedando como se muestra en la siguiente imagen
+
 ![azure11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure11.png?raw=true)
+
+Damos Click en "Ok" y con eso queda creado nuestro Callback. Ahora verificaremos que no exista ningun error. Damos click en "Associated devices"
 
 ![azure12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure12.png?raw=true)
 
+hacemos click en el ID de nuestro Devkit
+
 ![azure13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure13.png?raw=true)
+
+y en el panel izquierdo nos vamos a "Messages" para visualizar el estatus del Callback. Presionamos el boton de nuestro Devkit para mandar un mensaje. Si todo fue correctamente configurado la flecha en Callbacks ahora permanecerá en verde como se muestra en la imagen
 
 ![azure14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure14.png?raw=true)
 
+Con esto queda finalizada la parte en el backend.
+
+###Stream Analytics Azure
+
+Regresamos a Microsoft Azure y nos vamos a
+<br />Nuevo -> Internet de las Cosas -> Stream Analytics Job
+
 ![azure15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure15.png?raw=true)
+
+le asignamos un nombre y en "Grupo de recursos" seleccionamos "Usar existente" y nos aparecerá por default el recurso que creamos anteriormente y damos click en crear.
 
 ![azure16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure16.png?raw=true)
 
