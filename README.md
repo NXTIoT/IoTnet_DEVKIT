@@ -435,7 +435,7 @@ Ahora ya tenemos implementado nuestro recurso de Stream Analytics.
 
 ![azure18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure18.png?raw=true)
 
-
+Damos click en "Entradas" y configuramos el método por le cual entrarán los datos provenientes del backend hacia Azure. Asignamos un alias a nuestra nueva entrada, seleccionamos "Flujo de datos" en "Tipo de origen", en "Origen" seleccionamos "Centro de IoT", en ""  
 
 ![azure19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure19.png?raw=true)
 
