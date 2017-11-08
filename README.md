@@ -500,6 +500,10 @@ y veremos nuestra variable *Temp* que definimos cuando configuramos la salida ha
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
 
+![azure30](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure30.png?raw=true)
+
+![azure31](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure31.png?raw=true)
+
 ### Integración con Amazon Web Services
 
 Ahora es el turno de hacer la integración con la plataforma de Amazon Web Services (AWS). Se utilizará el ejemplo del sensor de temperatura, sin embargo puede utilizarse el ejemplo del sensor ultrasónico.
