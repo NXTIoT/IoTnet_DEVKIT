@@ -460,13 +460,15 @@ Asignamos un "Alias" y en "Receptor" seleccionamos "Power BI". Para esta parte n
 
 ![azure23](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure23.png?raw=true)
 
-Una vez que iniciemos sesión, nos habilitará opciones para configurar. Seleccionamos "Mi area de trabajo" y asignamos nombres al "Conjunto de datos" y a la "Tabla" que nos creará.
+Una vez que iniciemos sesión, nos habilitará opciones para configurar y abajo aparecerá la cuenta con la que hemos iniciado sesión en Power BI. Seleccionamos "Mi area de trabajo" y asignamos nombres al "Conjunto de datos" y a la "Tabla" que nos creará. 
 
 ![azure24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure24.png?raw=true)
 
-Damos click en "Crear" y como en los anteriores recursos, en las notificaciones no mostrará un mensaje de que fué creado con éxito. 
+Damos click en "Crear" y como en los anteriores recursos, en las notificaciones nos mostrará un mensaje de que fué creado con éxito. Ahora configuraremos las variables que mandaremos de nuestra "Entrada de datos" hacia la "Salida de datos". Nos dirigimos hacia "Consulta" 
 
 ![azure25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure25.png?raw=true)
+
+
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
 
