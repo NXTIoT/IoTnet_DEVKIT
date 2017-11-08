@@ -339,6 +339,35 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 
 ### Integración con Microsoft Azure
 
+![azure1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure1.png?raw=true)
+![azure2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure2.png?raw=true)
+![azure3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure3.png?raw=true)
+![azure4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure4.png?raw=true)
+![azure5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure5.png?raw=true)
+![azure6](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure6.png?raw=true)
+![azure7](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure7.png?raw=true)
+![azure8](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure8.png?raw=true)
+![azure9](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure9.png?raw=true)
+![azure10](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure10.png?raw=true)
+![azure11](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure11.png?raw=true)
+![azure12](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure12.png?raw=true)
+![azure13](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure13.png?raw=true)
+![azure14](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure14.png?raw=true)
+![azure15](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure15.png?raw=true)
+![azure16](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure16.png?raw=true)
+![azure17](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure17.png?raw=true)
+![azure18](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure18.png?raw=true)
+![azure19](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure19.png?raw=true)
+![azure20](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure20.png?raw=true)
+![azure21](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure21.png?raw=true)
+![azure22](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure22.png?raw=true)
+![azure23](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure23.png?raw=true)
+![azure24](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure24.png?raw=true)
+![azure25](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure25.png?raw=true)
+![azure26](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure26.png?raw=true)
+![azure27](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/azure27.png?raw=true)
+
+
 ### Integración con Amazon Web Services
 
 Ahora es el turno de hacer la integración con la plataforma de Amazon Web Services (AWS). Se utilizará el ejemplo del sensor de temperatura, sin embargo puede utilizarse el ejemplo del sensor ultrasónico.
