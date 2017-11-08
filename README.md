@@ -33,6 +33,12 @@ NXTIoT_DEVKIT
 		
 	-	[Integración con Microsoft Azure](#integración-con-microsoft-azure)
 	
+		-	[Configuración del Callback](#configuración-del-callback)
+		
+		- 	[Stream Analytics Azure](#stream-analytics-azure)
+		
+		-	[Power BI](#power-bi)
+	
 	-	[Integración con Amazon Web Services](#integración-con-amazon-web-services)
 	
 		-	[Callback en AWS](#callback-aws)
