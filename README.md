@@ -469,7 +469,6 @@ Damos click en "Crear" y como en los anteriores recursos, en las notificaciones 
 ![azure25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure25.png?raw=true)
 
 Copiamos y pegamos el siguiente código.
-
 <br /> SELECT
 <br />CAST(temperatura as float) as temp,
 <br />System.Timestamp AS Timestamp
@@ -481,6 +480,10 @@ Copiamos y pegamos el siguiente código.
 Con esto definimos que queremos enviar la variable *temperatura* como una nuava variable llamada *temp* y el tiempo hacia nuestra salida(Power BI) desde nuestro recurso de entrada. Y damos click en guardar. 
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
+
+![azure28](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure28.png?raw=true)
+
+![azure29](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure29.png?raw=true)
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
 
