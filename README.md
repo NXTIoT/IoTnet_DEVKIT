@@ -452,29 +452,25 @@ Damos click en crear. Despues de unos momentos, en las notificaciones nos indica
 
 ![azure21](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure21.png?raw=true)
 
+Regresamos a nuestro recurso de Stream Analytics. Ahora configuraremos la parte de salida de los datos. Damos click en "Salidas"
+
 ![azure22](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure22.png?raw=true)
+
+Asignamos un "Alias" y en "Receptor" seleccionamos "Power BI". Para esta parte necesitaremos nuestra cuenta en Power BI. Damos click en "Autorizar" y nos pedira iniciar sesión en Power BI con nuestro correo institucional o de trabajo. 
 
 ![azure23](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure23.png?raw=true)
 
+Una vez que iniciemos sesión, nos habilitará opciones para configurar. Seleccionamos "Mi area de trabajo" y asignamos nombres al "Conjunto de datos" y a la "Tabla" que nos creará.
+
 ![azure24](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure24.png?raw=true)
+
+Damos click en "Crear" y como en los anteriores recursos, en las notificaciones no mostrará un mensaje de que fué creado con éxito. 
 
 ![azure25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure25.png?raw=true)
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
-<br />{
-<br /> "device" : "{device}",
-<br /> "data" : "{data}",
-<br /> "time" : "{time}",
-<br /> "snr" : "{snr}",
-<br />"station" : "{station}",
-<br /> "avgSnr" : "{avgSnr}",
-<br /> "lat" : "{lat}",
-<br /> "lng" : "{lng}",
-<br /> "rssi" : "{rssi}",
-<br /> "seqNumber" : "{seqNumber}",
-<br />}
 
 ### Integración con Amazon Web Services
 
