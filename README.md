@@ -5,7 +5,7 @@ NXTIoT_DEVKIT
 
 -	[Pinout](#pinout)
 
--	[Programación](#programacion)
+-	[Programación](#programación)
 
 -	[Ejemplos](#ejemplos)
 
