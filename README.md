@@ -496,13 +496,21 @@ Presionamos el botón de nuestro Devkit para mandar mensajes.
 Ahora abrimos nuestra cuenta en Power BI. Nos vamos a 
 <br />Mi area de trabajo -> Conjunto de Datos
 
-y veremos nuestra variable *Temp* que definimos cuando configuramos la salida hacia Power BI.
+y veremos nuestra variable *Temp* que definimos cuando configuramos la salida hacia Power BI. Damos click en "Crear informe"
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
 
+Seleccionamos "Gráfico de lineas" y del lado derecho marcamos nuestras variables que queremos graficar, en este caso son *temp* y *timestamp*. Enseguida se graficarán los datos que enviamos desde que "Iniciamos" el recurso de Stream Analytics. Damos click en Guardar.
+
 ![azure30](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure30.png?raw=true)
 
+Con eso ya tenemos nuestro dashboard donde se mostrá la grafica de la temperatura con respecto al tiempo. Tenemos que dar click en "Actualizar" para que la grafica muestre los datos mas recientes.
+
 ![azure31](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure31.png?raw=true)
+
+Por último, para detener el envio de datos, regresamos a Azure y seleccionamos "Detener"
+
+![azure32](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure32.png?raw=true)
 
 ### Integración con Amazon Web Services
 
