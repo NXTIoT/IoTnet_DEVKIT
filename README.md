@@ -481,15 +481,22 @@ Con esto definimos que queremos enviar la variable *temperatura* como una nuava 
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
 
-ya que tenemos configurado la entrada y salida de datos, ya podemos empezar a enviar los datos de nuestro Devkit hacia Power BI y verlos en un dashboard. Hcemos click en "Iniciar" y despues de unos segundo nos indicará en "Ejecución". Presionamos el boton de nuestro Devkit para mandar mensajes
+ya que tenemos configurado la entrada y salida de datos, ya podemos empezar a enviar los datos de nuestro Devkit hacia Power BI y verlos en un dashboard. Damos click en "Iniciar"
 
 ![azure28](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure28.png?raw=true)
 
-### Power BI
+Nuevamente damos click en "Iniciar" y despues de unos segundos nos indicará en "Ejecución". 
 
 ![azure29](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure29.png?raw=true)
 
+Presionamos el botón de nuestro Devkit para mandar mensajes.
 
+### Power BI
+
+Ahora abrimos nuestra cuenta en Power BI. Nos vamos a 
+<br />Mi area de trabajo -> Conjunto de Datos
+
+y veremos nuestra variable *Temp* que definimos cuando configuramos la salida hacia Power BI.
 
 ![azure27](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure27.png?raw=true)
 
