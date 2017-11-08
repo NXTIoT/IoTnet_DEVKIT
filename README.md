@@ -478,7 +478,7 @@ Copiamos y pegamos el siguiente código.
 <br />FROM
 <br />[*El nombre de su entrada*]
 
-
+Con esto definimos que queremos enviar la variable *temperatura* como una nuava variable llamada *temp* y el tiempo hacia nuestra salida(Power BI) desde nuestro recurso de entrada. Y damos click en guardar. 
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
 
