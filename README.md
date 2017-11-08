@@ -436,13 +436,19 @@ Ahora ya tenemos implementado nuestro recurso de Stream Analytics.
 ![azure18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure18.png?raw=true)
 
 Damos click en "Entradas" y configuramos el método por le cual entrarán los datos provenientes del backend hacia Azure. 
-<br /> Asignamos un alias a nuestra nueva entrada
-<br /> En "Flujo de datos" seleccionamos "Tipo de origen"
-<br /> En "Origen" seleccionamos "Centro de IoT" 
+<br /> -Asignamos un alias a nuestra nueva entrada
+<br /> -En "Tipo de origen" seleccionamos "Flujo de datos"
+<br /> -En "Origen" seleccionamos "Centro de IoT" 
+<br /> -En "Opción de importación" seleccionamos "Usar centro de IoT de la suscripción actual"
+<br /> -En "Centro de IoT" seleccionamos nuestro recurso creado anteriormente, en este caso se llama "devkit-test"
+
+Los demas campos los dejamos como aparecen por defecto, quedando como se muestra en las siguientes imagenes
 
 ![azure19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure19.png?raw=true)
 
 ![azure20](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure20.png?raw=true)
+
+Damos click en crear. Despues de unos momentos, en las notificaciones nos indicará que la prueba de conexión fue correcta.
 
 ![azure21](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure21.png?raw=true)
 
