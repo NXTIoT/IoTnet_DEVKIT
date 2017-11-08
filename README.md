@@ -340,19 +340,26 @@ En Label podemos colocar las unidades de la informacion que estemos mostrando o 
 ### Integración con Microsoft Azure
 
 En esta sección realizaremos un Callback hacia Microsoft Azure utilizando el ejemplo del sensor de temperatura, para mandar la información y desplegarla en un dashboard donde podamos observar una gráfica de la temperatura con respecto al tiempo. Lo que necesitamos es:
-
 <br /> -Una cuenta en [Microsoft Azure](https://azure.microsoft.com/es-mx/) 
-<br /> -Un correo no personal (academico o de trabajo) para crear una cuenta de [Power BI](https://powerbi.microsoft.com/es-es/)
+<br /> -Un correo no personal (academico o de trabajo) para crear una cuenta en [Power BI](https://powerbi.microsoft.com/es-es/)
+
+Entramos en nuestra cuenta de Microsoft Azure y veremos el "Panel", donde se muestran los recursos que hagamos. En este caso está vacio porque no hemos creado ninguno.
 
 ![azure1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure1.png?raw=true)
 
+Ahora, crearemos un nuevo recurso con el que jalaremos los datos del backend hacia Azure. Damos click en Nuevo -> Internet de las cosas -> IoT Hub
+
 ![azure2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure2.png?raw=true)
+
+Asignamos un nombre a nuestro recurso y en "Grupo de recursos" seleccionamos "Crear Nuevo" y le damos un nombre. Todo lo demas se queda como aparece por default. Damos click en "Crear"
 
 ![azure3](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure3.png?raw=true)
 
-![azure4](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure4.png?raw=true)
+Despues de unos minutos, en las notificaciones nos mostrará un mensaje de que la implementación fue creada con éxito. Damos click en "Ir al recurso"
 
 ![azure5](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure5.png?raw=true)
+
+
 
 ![azure6](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure6.png?raw=true)
 
