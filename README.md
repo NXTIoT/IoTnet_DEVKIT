@@ -468,6 +468,16 @@ Damos click en "Crear" y como en los anteriores recursos, en las notificaciones 
 
 ![azure25](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure25.png?raw=true)
 
+Copiamos y pegamos el siguiente código.
+
+<br /> SELECT
+<br />CAST(temperatura as float) as temp,
+<br />System.Timestamp AS Timestamp
+<br />INTO 
+<br />[*El nombre de su salida*]
+<br />FROM
+<br />[*El nombre de su entrada*]
+
 
 
 ![azure26](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure26.png?raw=true)
