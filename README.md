@@ -419,7 +419,7 @@ Con esto queda finalizada la parte en el backend.
 ### Stream Analytics Azure
 
 Regresamos a Microsoft Azure y nos vamos a
-<br />Nuevo -> Internet de las Cosas -> Stream Analytics Job
+<br /> Nuevo -> Internet de las Cosas -> Stream Analytics Job
 
 ![azure15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure15.png?raw=true)
 
@@ -435,7 +435,10 @@ Ahora ya tenemos implementado nuestro recurso de Stream Analytics.
 
 ![azure18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure18.png?raw=true)
 
-Damos click en "Entradas" y configuramos el método por le cual entrarán los datos provenientes del backend hacia Azure. Asignamos un alias a nuestra nueva entrada, seleccionamos "Flujo de datos" en "Tipo de origen", en "Origen" seleccionamos "Centro de IoT", en ""  
+Damos click en "Entradas" y configuramos el método por le cual entrarán los datos provenientes del backend hacia Azure. 
+<br /> Asignamos un alias a nuestra nueva entrada
+<br /> En "Flujo de datos" seleccionamos "Tipo de origen"
+<br /> En "Origen" seleccionamos "Centro de IoT" 
 
 ![azure19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure19.png?raw=true)
 
