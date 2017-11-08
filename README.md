@@ -84,7 +84,7 @@ y hacemos lo mismo en MAC
 
 ![config](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/config.png?raw=true)
 
-una vez que se cargó el programa, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
+En caso de tener varios puertos habilitados, probar hasta que nos permita cargar el programa. Una vez que se cargó el codigo, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
 
 Ejemplos
 --------
