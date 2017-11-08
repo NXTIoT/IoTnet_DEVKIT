@@ -416,7 +416,7 @@ y en el panel izquierdo nos vamos a "Messages" para visualizar el estatus del Ca
 
 Con esto queda finalizada la parte en el backend.
 
-###Stream Analytics Azure
+### Stream Analytics Azure
 
 Regresamos a Microsoft Azure y nos vamos a
 <br />Nuevo -> Internet de las Cosas -> Stream Analytics Job
@@ -427,9 +427,15 @@ le asignamos un nombre y en "Grupo de recursos" seleccionamos "Usar existente" y
 
 ![azure16](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure16.png?raw=true)
 
+Despues de un momento, en las notificaciones nos aparecerá que la implementacion fue correcta. Damos click en ir al recurso
+
 ![azure17](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure17.png?raw=true)
 
+Ahora ya tenemos implementado nuestro recurso de Stream Analytics.
+
 ![azure18](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure18.png?raw=true)
+
+
 
 ![azure19](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/azure19.png?raw=true)
 
