@@ -4,7 +4,7 @@
 SoftwareSerial mySerial(0, 1); // RX, TX
 #endif
 
-const int sensorPin = A5;
+const int sensorPin = A0;
 const float baselinetime=20.0;
 const int boton=6;
 char RespuestaSigfox[50];
