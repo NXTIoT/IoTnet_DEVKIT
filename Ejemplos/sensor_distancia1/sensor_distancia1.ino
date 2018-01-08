@@ -13,7 +13,10 @@ void setup()
 
 void leer_distancia()
 {
+  //AT$SF= comando para mandar la informacion por sigfox
+  //Maximo 12 bytes
   String bufer="AT$SF=";
+  //*************************
   String bufer2="\n";
   float duracion, distancia ;
   digitalWrite(trigPin, LOW);        
@@ -25,8 +28,11 @@ void leer_distancia()
   distancia = duracion / 2 / 29.1;
   Serial.print("Distancia: ") ;
   Serial.println(distancia) ;
+  //Conversion de nuestro dato a bytes
+  //Un dato en flotante ocupa 4 bytes
   byte* a1 = (byte*) &distancia;
   String str1;
+  //agregamos al comando AT$SF nuestra informacion a enviar
   for(int i=0;i<4;i++)
   {
     str1=String(a1[i], HEX);
@@ -40,11 +46,17 @@ void leer_distancia()
     }
   }  
   bufer+=bufer2;
+  //*******************
+  //Habilitamos el modulo Sigfox
   digitalWrite(7, HIGH);
   delay(1000);
-  Serial.print("AT$RC\n");
+  //Reset del canal para asegurar que manda en la frecuencia correcta
+  Serial.print("AT$RC\n"); 
+  //************************
+  //Enviamos la informacion por sigfox
   Serial.print(bufer);
   delay(3000);
+  //deshabilitamos el modulo Sigfox
   digitalWrite(7, LOW);
   delay(500);
 }
