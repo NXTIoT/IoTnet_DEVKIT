@@ -1,3 +1,5 @@
+//Programa de ejemplo utilizando el sensor ultrasonico HC-SR04
+//En este caso el dato en flotante es transformado a su representacion en hexadecimal en formato float 32 little-endian
 #define trigPin 3
 #define echoPin 2
 const int boton=6;
