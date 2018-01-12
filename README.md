@@ -94,7 +94,7 @@ A continuación, se presentan varios ejemplos donde se utilizan las entradas ana
 
 ### Leer ID/PAC
 
-En este ejemplo se utilizará el sketch devkit_info.ino ([Codigo](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend. Una vez descargado el sketch, procedemos a cargarlo en nuestra tarjeta siguiendo el procedimiento descrito anteriormente.
+En este ejemplo se utilizará el sketch devkit_info.ino ([Code](Ejemplos/devkit_info/devkit_info.ino)) para leer el ID y el PAC de nuestro Devkit, los cuales son necesarios para registrar el dispositivo en la plataforma de Sigfox y poder ver los mensajes enviados en el backend. Una vez descargado el sketch, procedemos a cargarlo en nuestra tarjeta siguiendo el procedimiento descrito anteriormente.
 Abrimos el Monitor Serie 
 
 ![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev2.png?raw=true)
@@ -111,7 +111,7 @@ Una vez registrado, podemos enviar nuestro primer mensaje, lo cual podemos hacer
 
 ### Boton y led
 
-Este ejemplo nos permitirá conocer cuáles son los puertos a los que están conectados el botón y el led para poder utilizarlos en otros programas. Se utilizará el sketch boton_led.ino ([Codigo](Ejemplos/boton_led/boton_led.ino)). Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para después apagarse.
+Este ejemplo nos permitirá conocer cuáles son los puertos a los que están conectados el botón y el led para poder utilizarlos en otros programas. Se utilizará el sketch boton_led.ino ([Code](Ejemplos/boton_led/boton_led.ino)). Una vez cargado el programa, al presionar el botón, el Led 6 se encenderá por 2 segundos para después apagarse.
 
 ![dev5](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev5.png?raw=true)
 
@@ -121,7 +121,7 @@ En este ejemplo se mostrará como conectar un sensor de distancia al Devkit y ma
 
 ![sensor_distancia](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/sensor_distancia.jpg?raw=true)
 
-Descargamos el sketch sensor_distancia1.ino ([Codigo])(Ejemplos/sensor_distancia1/sensor_ultraINT.ino) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. El programa manda la información de la distancia hacia el backend cada vez que se presione el boton mas cercano al led que se encuentra encendido.
+Descargamos el sketch sensor_distancia1.ino ([Code])(Ejemplos/sensor_distancia1/sensor_ultraINT.ino) y lo cargamos en la tarjeta siguiendo el procedimiento descrito anteriormente. El programa manda la información de la distancia hacia el backend cada vez que se presione el boton mas cercano al led que se encuentra encendido.
 
 Ponemos un objeto frente al sensor
 
@@ -139,7 +139,7 @@ Si revisamos el backend, veremos que cada mensaje nos mostrara la misma informac
 
 En este ejemplo se mostrará como leer un sensor analógico además de realizar la codificación del dato antes de ser enviado y ya en el backend, se realizará la decodificación para poder visualizar la información en forma decimal. 
 
-Descargar el sketch ([Codigo](Ejemplos/sensor_temperatura/sensor_temperatura.ino)). El sensor utilizado en este ejemplo es el LM35
+Descargar el sketch ([Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino)). El sensor utilizado en este ejemplo es el LM35
 
 ![tmp36](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/tmp36.jpg?raw=true)
 
