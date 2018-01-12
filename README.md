@@ -18,6 +18,8 @@ NXTIoT_DEVKIT
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
 -	[Creación de Callbacks](#creación-de-callbacks)
+
+	-	[Callback hacia un email](#Callback-hacia-un-email)
 	
 	-	[Integración en Losant](#integración-en-losant)
 
@@ -162,9 +164,9 @@ Creación de Callbacks
 
 A continuación se mostrará como realizar los Callbacks hacia diferentes plataformas, es decir, mandar la información hacia una plataforma específica para presentar la información enviada por el Devkit de manera mas intuitiva y facil de entender. Para entender mas sobre los callbacks ir al siguiente link: [Callback](https://github.com/Iotnet/Callback)
 
-### Callback hacia un email
+### Callback hacia un correo
 
-El mas facil de los Callbacks es hacia un email o conjunto de emails. Cada vez que llegue al backend un mensaje de nuestro dispositivo, se enviara un mensaje a los correos configurados. Para realizar el callback, damos click en el device type de nuestro dispositivo
+El mas facil de los Callbacks es hacia un correo o conjunto de correos. Cada vez que llegue al backend un mensaje de nuestro dispositivo, se enviara un mensaje a los correos configurados. Para realizar el callback, damos click en el device type de nuestro dispositivo
 
 ![aws1](https://raw.githubusercontent.com/NXTIoT/NXTIoT_DEVKIT/master/images/aws1.png?raw=true)
 
@@ -174,6 +176,13 @@ en la columna del lado izquierdo damos click en "Callbacks"
 
 enseguida, en la parte superior derecha, daremos click en "NEW" y de las diferentes opciones de callbacks, seleccionaremos "Custom Callback"
 
+![call1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/call1.png?raw=true)
+
+Configuramos el callback de la siguiente manera
+
+![call2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/call2.png?raw=true)
+
+Damos click en OK. Con eso nuestro Callback esta hecho. La proxima vez que mandemos un mensaje de nuestro devkit, nos llegara un correo con el "Subject" que nosotros elegimos asi como la informacion que recibimos.
 
 ### Integración en Losant
 
