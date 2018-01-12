@@ -1,5 +1,5 @@
 //Programa de ejemplo utilizando el sensor ultrasonico HC-SR04
-//En este caso el dato en flotante es transformado a su representacion en hexadecimal en formato float 32 little-endian
+//En este caso el dato en Entero (int) es transformado a su representacion en hexadecimal
 #define trigPin 3
 #define echoPin 2
 const int boton=6;
@@ -32,7 +32,6 @@ void leer_distancia()
   Serial.print("Distancia: ") ;
   Serial.println(distancia) ;
   //Conversion de nuestro dato a bytes
-  //Un dato en flotante ocupa 4 bytes
   byte* a1 = (byte*) &distancia;
   String str1;
   //agregamos al comando AT$SF nuestra informacion a enviar
