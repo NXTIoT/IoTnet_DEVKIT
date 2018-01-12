@@ -180,7 +180,7 @@ enseguida, en la parte superior derecha, daremos click en "NEW" y de las diferen
 
 Configuramos el callback de la siguiente manera
 
-![call2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/call2.png?raw=true)
+![call21](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/call21.png?raw=true)
 
 Damos click en OK. Con eso nuestro Callback esta hecho. La proxima vez que mandemos un mensaje de nuestro devkit, nos llegara un correo con el "Subject" que nosotros elegimos asi como la informacion que recibimos.
 
