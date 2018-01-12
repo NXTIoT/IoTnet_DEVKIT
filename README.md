@@ -162,6 +162,19 @@ Creación de Callbacks
 
 A continuación se mostrará como realizar los Callbacks hacia diferentes plataformas, es decir, mandar la información hacia una plataforma específica para presentar la información enviada por el Devkit de manera mas intuitiva y facil de entender. Para entender mas sobre los callbacks ir al siguiente link: [Callback](https://github.com/Iotnet/Callback)
 
+### Callback hacia un email
+
+El mas facil de los Callbacks es hacia un email o conjunto de emails. Cada vez que llegue al backend un mensaje de nuestro dispositivo, se enviara un mensaje a los correos configurados. Para realizar el callback, damos click en el device type de nuestro dispositivo
+
+![aws1](https://raw.githubusercontent.com/NXTIoT/NXTIoT_DEVKIT/master/images/aws1.png?raw=true)
+
+en la columna del lado izquierdo damos click en "Callbacks"
+
+![aws2](https://raw.githubusercontent.com/NXTIoT/NXTIoT_DEVKIT/master/images/aws2.png?raw=true)
+
+enseguida, en la parte superior derecha, daremos click en "NEW" y de las diferentes opciones de callbacks, seleccionaremos "Custom Callback"
+
+
 ### Integración en Losant
 
 Para esta parte utilizaremos el ejemplo del sensor de temperatura anterior. 
