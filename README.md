@@ -19,7 +19,7 @@ NXTIoT_DEVKIT
 	
 -	[Creación de Callbacks](#creación-de-callbacks)
 
-	-	[Callback hacia un correo](#Callback-hacia-un-correo)
+	-	[Callback hacia un correo](#callback-hacia-un-correo)
 	
 	-	[Integración en Losant](#integración-en-losant)
 
