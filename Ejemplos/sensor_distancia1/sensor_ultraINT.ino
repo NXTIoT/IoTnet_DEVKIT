@@ -21,7 +21,7 @@ void leer_distancia()
   //*************************
   String bufer2="\n";
   float duracion;
-  int distancia ;
+  unsigned int distancia ;
   digitalWrite(trigPin, LOW);        
   delayMicroseconds(2);              
   digitalWrite(trigPin, HIGH);       
