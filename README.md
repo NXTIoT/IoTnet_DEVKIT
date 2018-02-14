@@ -7,6 +7,10 @@ NXTIoT_DEVKIT
 
 -	[Programación](#programación)
 
+	-	[Devkit 1.0](#devkit-1.0)
+	
+	-	[Devkit 2.0](#devkit-2.0)
+
 -	[Ejemplos](#ejemplos)
 
 	-	[Leer ID/PAC](#leer-idpac)
@@ -91,6 +95,11 @@ en Mac, hacemos lo mismo
 En caso de tener varios puertos habilitados, probar hasta que nos permita cargar el programa. Una vez que se cargó el codigo, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
 
 ### Devkit 2.0
+
+El Devkit 2.0 es una mejora de la versión 1.0. Los cambios son los siguientes:
+
+-	Sustituye los pines y jumpers de programación por un switch. Posición del switch a la izquierda para programar el microcontrolador y hacia la derecha, para restablecer la comunicación entre el microcontrolador y el módulo de comunicación Sigfox.
+-	Se cambiaron los botones de Reset (rojo) y el botón programable (azul) para su facil identificación.
 
 ![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
 
