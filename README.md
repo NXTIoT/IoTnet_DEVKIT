@@ -72,6 +72,8 @@ En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan 
 Programación
 ------------
 
+### Devkit 1.0
+
 Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jumper, sea el caso) tal como se muestra en la imagen. TENER CUIDADO AL QUITAR LOS JUMPERS.
 
 ![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
@@ -82,11 +84,15 @@ En Windows seleccionamos el puerto *COM* que nos habilitó nuestra tarjeta. *En 
 
 ![con1](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/con1.png?raw=true)
 
-y hacemos lo mismo en MAC
+en Mac, hacemos lo mismo
 
 ![config](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/config.png?raw=true)
 
 En caso de tener varios puertos habilitados, probar hasta que nos permita cargar el programa. Una vez que se cargó el codigo, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
+
+### Devkit 2.0
+
+![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
 
 Ejemplos
 --------
