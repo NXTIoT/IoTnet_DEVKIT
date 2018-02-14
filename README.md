@@ -82,6 +82,19 @@ Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jum
 
 ![dev1](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev1.png?raw=true)
 
+### Devkit 2.0
+
+El Devkit 2.0 es una mejora de la versión 1.0. Los cambios significativos son los siguientes:
+
+-	Sustituye los pines y jumpers de programación por un switch. Posición del switch a la *izquierda* para programar el microcontrolador y hacia la *derecha*, para restablecer la comunicación entre el microcontrolador y el módulo de comunicación Sigfox.
+-	Se cambiaron los botones de Reset (rojo) y el botón programable (azul) para su facil identificación.
+
+-	Se movió el módulo de comunicación Sigfox, de manera que las I/O quedan del lado izquierdo.
+
+*Los cambios anteriores no afectan nada en cuanto a prgramación, por lo que los programas para el Devkit 1.0 funcionan en la versión 2.0.* 
+
+![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
+
 Una vez conectada la tarjeta, deberemos selecccionar la "Placa" y el "Puerto" en la pestaña de HERRAMIENTAS. Seleccionamos "Arduino/Genuino uno" como nuestra placa y deberemos seleccionar el puerto.
 
 En Windows seleccionamos el puerto *COM* que nos habilitó nuestra tarjeta. *En ocaciones, puede tardar un momento en habilitar el puerto la primera vez*
@@ -94,14 +107,7 @@ en Mac, hacemos lo mismo
 
 En caso de tener varios puertos habilitados, probar hasta que nos permita cargar el programa. Una vez que se cargó el codigo, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
 
-### Devkit 2.0
 
-El Devkit 2.0 es una mejora de la versión 1.0. Los cambios son los siguientes:
-
--	Sustituye los pines y jumpers de programación por un switch. Posición del switch a la izquierda para programar el microcontrolador y hacia la derecha, para restablecer la comunicación entre el microcontrolador y el módulo de comunicación Sigfox.
--	Se cambiaron los botones de Reset (rojo) y el botón programable (azul) para su facil identificación.
-
-![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
 
 Ejemplos
 --------
