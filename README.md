@@ -91,7 +91,7 @@ El Devkit 2.0 es una mejora de la versión 1.0. Los cambios significativos son l
 
 -	Se movió el módulo de comunicación Sigfox, de manera que las I/O quedan del lado izquierdo.
 
-*Los cambios anteriores no afectan nada en cuanto a prgramación, por lo que los programas para el Devkit 1.0 funcionan en la versión 2.0.* 
+*Los cambios anteriores no afectan nada en cuanto a programación, por lo que los programas para el Devkit 1.0 funcionan en la versión 2.0.* 
 
 ![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
 
