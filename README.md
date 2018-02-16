@@ -10,6 +10,8 @@ NXTIoT_DEVKIT
 	-	[Devkit 1.0](#devkit-1.0)
 	
 	-	[Devkit 2.0](#devkit-2.0)
+	
+-	[Resolución de problemas](#resolución-de-problemas)
 
 -	[Ejemplos](#ejemplos)
 
@@ -107,7 +109,12 @@ en Mac, hacemos lo mismo
 
 En caso de tener varios puertos habilitados, probar hasta que nos permita cargar el programa. Una vez que se cargó el codigo, se vuelven a colocar los jumpers. Este procedimiento debe realizarse cada vez que se desee cargar un programa al Devkit.
 
+Resolución de problemas
+-----------------------
 
+En sistemas operativos Windows 8 y Windows 10, puede que no reconozca el Devkit. Para la resolución de este problema, seguir los pasos descritos en el siguiente repositorio
+
+https://github.com/NXTIoT/Drivers-para-DEVkit
 
 Ejemplos
 --------
