@@ -23,6 +23,12 @@ NXTIoT_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
+-	[Devkit Dual Zona 2 y 4](#devkit-dual-zona-2-y-4)
+
+	-	[Cambio de Zona](#cambio-de-zona)
+	
+	-	[Ejemplo](#ejemplo)
+
 Introducción
 ------------
 
