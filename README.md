@@ -177,7 +177,7 @@ y de RC4->RC2
 
 ### Ejemplo
 
-El siguiente codigo de ejemplo , permite realizar el cambio de zona (de zona 2 a 4 y veceversa) por medio del boton programable. Las acciones son:
+El siguiente codigo de ejemplo ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/demo_rcz24.ino)), permite realizar el cambio de zona (de zona 2 a 4 y veceversa) por medio del boton programable. Las acciones son:
 
 -	1 click: obtener ID, PAC y enviar un mensaje por Sigfox.
 
