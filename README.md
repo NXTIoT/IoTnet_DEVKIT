@@ -171,13 +171,13 @@ En esta parte del repositorio se presenta el uso del Devkit con el modulo Dual d
 
 Para establecer la zona de transmisión de RC2->RC4, es necesario la siguiente secuencia de comandos:
 -	AT$DR=922300000
--	ATS400=<00000000><F0000000><0000001F>,63
+-	ATS400= <00000000> <F0000000> <0000001F>,63
 -	AT$WR
 -	AT$RC
 
 y de RC4->RC2
 -	AT$DR=905200000
--	ATS400=<000001FF><00000000><00000000>,1
+-	ATS400= <000001FF> <00000000> <00000000>,1
 -	AT$WR
 -	AT$RC
 
