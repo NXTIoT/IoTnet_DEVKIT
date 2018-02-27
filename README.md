@@ -183,10 +183,14 @@ El siguiente codigo de ejemplo ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/b
 
 -	click largo por 3 segundos: cambio de zona.
 
-Ademas cuando el Devkit este configurado en zona 4, el led programable (led verde) estara encendido.
+Ademas cuando el Devkit este configurado en zona 4, el led programable (led verde) estara encendido y al abrir la terminal de arduino, nos desplegara la informacion de la configuracion de la zona
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/rcz4.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/term4.png?raw=true)
 
 y apagado cuando se encuentre en zona 2
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/rcz2.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/term2.png?raw=true)
