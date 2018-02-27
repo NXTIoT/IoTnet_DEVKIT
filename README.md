@@ -148,3 +148,10 @@ Ahora para decodificar el dato enviado, se debe realizar el parsing del payload.
 Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviado aparecerá la información de la temperatura tal como nos aparece en el monitor serie de Arduino
 
 ![dev9](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev9.png?raw=true)
+
+Callbacks
+---------
+
+Ir a la siguiente liga para ver la informacion sobre la creación de callbacks hacia diferentes plataformas.
+
+https://github.com/NXTIoT/Callbacks-hacia-plataformas
