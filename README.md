@@ -185,4 +185,8 @@ El siguiente codigo de ejemplo ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/b
 
 Ademas cuando el Devkit este configurado en zona 4, el led programable (led verde) estara encendido.
 
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/rcz4.png?raw=true)
+
 y apagado cuando se encuentre en zona 2
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/rcz2.png?raw=true)
