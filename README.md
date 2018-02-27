@@ -183,4 +183,6 @@ El siguiente codigo de ejemplo , permite realizar el cambio de zona (de zona 2 a
 
 -	click largo por 3 segundos: cambio de zona.
 
+Ademas cuando el Devkit este configurado en zona 4, el led programable (led verde) estara encendido.
 
+y apagado cuando se encuentre en zona 2
