@@ -155,3 +155,32 @@ Callbacks
 Ir a la siguiente liga para ver la informacion sobre la creación de callbacks hacia diferentes plataformas.
 
 https://github.com/NXTIoT/Callbacks-hacia-plataformas
+
+Devkit Dual Zona 2 y 4
+----------------------
+
+En esta parte del repositorio se presenta el uso del Devkit con el modulo Dual de Wisol para zona 2 y 4. Se presenta un codigo de ejemplo que realiza el cambio de zona de RCZ2 a RCZ4 y viceversa utilizando el botón programable (Azul) que trae incluido el Devkit.
+
+### Cambio de Zona
+
+Para establecer la zona de transmisión de RC2->RC4, es necesario la siguiente secuencia de comandos:
+-	AT$DR=922300000
+-	ATS400=<00000000><F0000000><0000001F>,63
+-	AT$WR
+-	AT$RC
+
+y de RC4->RC2
+-	AT$DR=905200000
+-	ATS400=<000001FF><00000000><00000000>,1
+-	AT$WR
+-	AT$RC
+
+### Ejemplo
+
+El siguiente codigo de ejemplo , permite realizar el cambio de zona (de zona 2 a 4 y veceversa) por medio del boton programable. Las acciones son:
+
+-	1 click: obtener ID, PAC y enviar un mensaje por Sigfox.
+
+-	click largo por 3 segundos: cambio de zona.
+
+
