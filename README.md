@@ -157,9 +157,15 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 ### Downlink
 
-En el siguiente ejemplo, se mostrará un ejemplo de como realizar los downliks. Descargar y subir al Devkit el siguiente programa.
+En el siguiente ejemplo, se mostrará como realizar un downlink, en el que se configurará la información que recibirá el Devkit directamente en el backend y, a través de esta información, realizará cierta acción, como en este ejemplo, al recibir la informacion del backend prenderá y apagará el led programable un número determinado de veces.
+
+Descargar y subir al Devkit el siguiente programa ([code]()).
+
+Ahora, debemos configurar la información que recibirá nuestro Devkit. Buscamos nuestro dispositivo en el backend
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down1.png?raw=true)
+
+y damos click en el "Device Type". 
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down2.png?raw=true)
 
