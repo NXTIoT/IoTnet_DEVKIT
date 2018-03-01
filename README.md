@@ -23,6 +23,8 @@ NXTIoT_DEVKIT
 
 	-	[Sensor de Temperatura](#sensor-de-temperatura)
 	
+	-	[Downlink](#downlink)
+	
 -	[Devkit Dual Zona 2 y 4](#devkit-dual-zona-2-y-4)
 
 	-	[Cambio de Zona](#cambio-de-zona)
@@ -157,7 +159,7 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 ### Downlink
 
-En el siguiente ejemplo, se mostrará como realizar un downlink, en el que se configurará la información que recibirá el Devkit directamente en el backend y, a través de esta información, realizará cierta acción, como en este ejemplo, al recibir la informacion del backend prenderá y apagará el led programable un número determinado de veces.
+En el siguiente ejemplo, se mostrará como realizar un downlink, en el que se configurará la información que recibirá el Devkit directamente en el backend y, a través de esta información, realizará cierta acción, En este ejemplo, al recibir la información del backend, prenderá y apagará el led programable un número determinado de veces.
 
 Descargar y subir al Devkit el siguiente programa ([code]()).
 
@@ -193,7 +195,7 @@ una vez que el dispositivo hace una petición de downlink, abrirá una ventana d
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down7.png?raw=true)
 
-En el serial de arduino, se desplegará la informacion que recibió el dispositivo, en caso de que se realizara de forma exitosa. 
+Y en el serial de arduino, se desplegará la informacion que recibió el dispositivo, en caso de que se realizara de forma exitosa. Aparecerà un "OK" de que se envió el mensje con la petición de downlink y en la siguiente linea, la información recibida y por ultimo, el numero de veces que se encenderá el led.. 
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down8.png?raw=true)
 
