@@ -173,15 +173,27 @@ nos dirigimos hacia la parte de "Dwnlink data". Por default tendrá la configura
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down3.png?raw=true)
 
-modificamos la informacion de {time}0000{rssi} a {time}0400{rssi}, de esta manera, con el 4 que hemos modificado le indicaremos al Devkit el numero de veces que queremos que parpadeé el led (El valor debe de ser del 1 al 9)
-
-![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down4.png?raw=true)
+modificamos la informacion de {time}0000{rssi} a {time}0400{rssi}, de esta manera, con el 4 que hemos agregado le indicaremos al Devkit el número de veces que queremos que encienda el led (El valor debe de ser del 1 al 9). Hacemos click en "OK"
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down5.png?raw=true)
 
+Ahora que ya tenemos configurada la información que recibirá el Devkit, nos vamos a los mensajes del dispositivo. Abrimos el "Monitor Serie" de Arduino y presionamos el boton programable (Azul). Enseguida nos apareceran los comandos de RESET y el de enviar mensaje con petición de downlink
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down4.png?raw=true)
+
+si observamos el backend, veremos que el mensaje presenta dos indicadores. 
+
+-	"Flecha hacia arriba": estatus del callback en caso de tener alguno configurado.
+
+-	"Flecha hacia abajo": estats del Downlink, es decir, disponibilidad de la red para atender la petición del dispositivo.
+
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down6.png?raw=true)
 
+una vez que el dispositivo hace una petición de downlink, abrirá una ventana de tiempo (alrededor de 20 segundos), durante la cual esperará la respuesta de la red. Despues de un tiempo, el estatus del Downlink aparecerá en verde, indicando que la red puede atender satisfactoriamente la petición del dispositivo.
+
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down7.png?raw=true)
+
+En el serial de arduino, se desplegará la informacion que recibió el dispositivo, en caso de que se realizara de forma exitosa. 
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down8.png?raw=true)
 
