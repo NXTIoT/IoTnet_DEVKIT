@@ -159,7 +159,21 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 En el siguiente ejemplo, se mostrará un ejemplo de como realizar los downliks. Descargar y subir al Devkit el siguiente programa.
 
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down1.png?raw=true)
 
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down2.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down3.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down4.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down5.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down6.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down7.png?raw=true)
+
+![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down8.png?raw=true)
 
 Callbacks
 ---------
