@@ -165,11 +165,15 @@ Ahora, debemos configurar la información que recibirá nuestro Devkit. Buscamos
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down1.png?raw=true)
 
-y damos click en el "Device Type". 
+y damos click en el "Device Type". En la esquina superior izquierda seleccionamos "Edit"
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down2.png?raw=true)
 
+nos dirigimos hacia la parte de "Dwnlink data". Por default tendrá la configuración DIRECT en "Downlink mode" y {time}0000{rssi} como la información que será enviada en caso de que el dispositivo realice una petición de downlink. Esta informacion es la que deberemos modificar.
+
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down3.png?raw=true)
+
+modificamos la informacion de {time}0000{rssi} a {time}0400{rssi}, de esta manera, con el 4 que hemos modificado le indicaremos al Devkit el numero de veces que queremos que parpadeé el led (El valor debe de ser del 1 al 9)
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down4.png?raw=true)
 
