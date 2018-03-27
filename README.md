@@ -163,6 +163,8 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 En el siguiente ejemplo, se mostrará como realizar un downlink, en el que se configurará la información que recibirá el Devkit directamente en el backend y, a través de esta información, realizará cierta acción, En este ejemplo, al recibir la información del backend, prenderá y apagará el led programable un número determinado de veces.
 
+El comando utilizado para realizar un downlink, es el mismo que para enviar un mensaje (AT$SF=XXXXXX) pero se le agrega ",1" al final del comando, quedando de la siguiente manera (AT$SF=XXXXXX,1). 
+
 En este caso, el dispositivo es el que comienza con el proceso del downlink. El proceso se puede resumir en los siguientes pasos:
 <br />1.- El dispositivo debe mandar un mensaje con la petición para la nube de un downlink (AT$SF=XXXXXX,1). 
 <br />2.- La nube al recibir la petición, procesa la información que tiene que mandar y busca la antena mas cerca al dispositivo que pueda atender a la peticion.
