@@ -163,6 +163,13 @@ Revisando los mensajes del dispositivo, veremos que ahora debajo del dato enviad
 
 En el siguiente ejemplo, se mostrará como realizar un downlink, en el que se configurará la información que recibirá el Devkit directamente en el backend y, a través de esta información, realizará cierta acción, En este ejemplo, al recibir la información del backend, prenderá y apagará el led programable un número determinado de veces.
 
+En este caso, el dispositivo es el que comienza con el proceso del downlink. El proceso se puede resumir en los siguientes pasos:
+1.- El dispositivo debe mandar un mensaje con la petición para la nube de un downlink (AT$SF=XXXXXX,1). 
+2.- La nube al recibir la petición, procesa la información que tiene que mandar y busca la antena mas cerca al dispositivo que pueda atender a la peticion.
+3.- El dispositivo entrará en modo escucha por alrededor de 20 segundos, para captar la información que se le envie.
+4.- En dado caso que exista una antena que pueda realizar la petición de downlink, el estatus de downlink en el backend cambiará a verde.
+5.- Finalmente, en dado caso que la petición haya sido exitosa, el dispositivo recibirá la informacion y pasará a modo reposo nuevamente.
+
 Descargar y subir al Devkit el siguiente programa ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/downlink.ino)).
 
 Ahora, debemos configurar la información que recibirá nuestro Devkit. Buscamos nuestro dispositivo en el backend
