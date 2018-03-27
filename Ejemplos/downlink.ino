@@ -33,6 +33,7 @@ void leer_info()
   digitalWrite(7, HIGH);
   delay(1000);
   enviarcomandoATSigfox("AT$RC");
+  //para hacer una peticion de downlink, se agrega ",1" al final del comando de enviar mensaje
   downlink_SIGFOX("AT$SF=0102030405,1");
   strcpy(res,RespuestaSigfox);
   digitalWrite(7, LOW);
