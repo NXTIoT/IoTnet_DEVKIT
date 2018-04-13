@@ -42,6 +42,8 @@ Proyecto para aprender a utilizar el Devkit de desarrollo de NXTIoT, el cual tra
 El Devkit cuenta con 6 GPIOs y 6 entradas analógicas, que también pueden configurarse como entradas digitales, un botón y un led que pueden programarse. 
 A lo largo de este proyecto, se presentarán algunos ejemplos para demostrar lo fácil que es incluir la conectividad Sigfox a cualquier proyecto. Además, los ejemplos permitirán asociar las terminales de la tarjeta con las utilizadas en Arduino de manera que cualquier sketch utilizado en Arduino Uno puede ser cargado en el Devkit, únicamente cambiando los puertos utilizados a los disponibles en la tarjeta.
 
+La tarjeta ya trae un programa precargado, con el que se obtiene el ID y el PAC del  modulo Wisol al presionar el boton, ademas, de mandar un mensaje por Sigfox.
+
 Pinout
 ------
 
