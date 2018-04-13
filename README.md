@@ -103,8 +103,6 @@ Presionamos el botón más cercano al Led que se encuentra encendido y en el mon
 
 ![dev3](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev3.png?raw=true)
 
-Ahora que tenemos el ID y el Pac de nuestro dispositivo, procedemos a darlo de alta en el backend siguiendo los pasos del siguiente repositorio: https://github.com/Iotnet/Registro-Devkit-IoTnet. 
-
 Una vez registrado, podemos enviar nuestro primer mensaje, lo cual podemos hacer con el mismo programa. Presionamos nuevamente el botón y nos desplegara la misma información que antes. Notar que los leds de status del módulo Wisol parpadearan 3 veces, lo que indica que se están enviando los mensajes. Si nos vamos al backend, veremos el mensaje que acabamos de enviar.
 
 ![dev4](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/dev4.png?raw=true)
