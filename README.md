@@ -36,7 +36,7 @@ NXTIoT_DEVKIT
 Introducción
 ------------
 
-Proyecto para aprender a utilizar el Devkit de desarrollo de IoTnet, el cual trae un módulo Wisol de conectividad Sigfox y un microprocesador ATmega 328P, por lo que puede programarse mediante el IDE de Arduino (https://www.arduino.cc/en/Main/Software).
+Proyecto para aprender a utilizar el Devkit de desarrollo de NXTIoT, el cual trae un módulo Wisol de conectividad Sigfox y un microprocesador ATmega 328P, por lo que puede programarse mediante el IDE de Arduino (https://www.arduino.cc/en/Main/Software).
 El Devkit cuenta con 6 GPIOs y 6 entradas analógicas, que también pueden configurarse como entradas digitales, un botón y un led que pueden programarse. 
 A lo largo de este proyecto, se presentarán algunos ejemplos para demostrar lo fácil que es incluir la conectividad Sigfox a cualquier proyecto. Además, los ejemplos permitirán asociar las terminales de la tarjeta con las utilizadas en Arduino de manera que cualquier sketch utilizado en Arduino Uno puede ser cargado en el Devkit, únicamente cambiando los puertos utilizados a los disponibles en la tarjeta.
 
@@ -87,6 +87,18 @@ Resolución de problemas
 En sistemas operativos Windows 8 y Windows 10, puede que no reconozca el Devkit. Para la resolución de este problema, seguir los pasos descritos en el siguiente repositorio
 
 https://github.com/NXTIoT/Drivers-para-DEVkit
+
+Comandos importantes Modulo Wisol
+---------------------------------
+
+El modulo Wisol de conectividad Sigfox es un "pequeño" modem mediante el cual enviaremos nuestra información, por lo que para comunicarnos con el modulo utilizaremos comandos AT. Los principales comandos del modulo son:
+
+-	AT	:	Comando de "Attention". El modulo regresa un "OK" como respuesta.
+-	AT$I=10	:	Obtener el ID
+-	AT$I=11	:	Obtener el PAC
+-	AT$RC	:	Reset del módulo. Este comando debe utilizarse antes de mandar cualquier informacion por Sigfox.
+-	AT$SF=	:	Comando para enviar datos (hasta 12 bytes en hexadecimal)
+
 
 Ejemplos
 --------
