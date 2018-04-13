@@ -13,6 +13,8 @@ NXTIoT_DEVKIT
 	
 -	[Resolución de problemas](#resolución-de-problemas)
 
+-	[Comandos importantes Modulo Wisol](#comandos-importantes-modulo-wisol)
+
 -	[Ejemplos](#ejemplos)
 
 	-	[Leer ID/PAC](#leer-idpac)
