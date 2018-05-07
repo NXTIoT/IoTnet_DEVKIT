@@ -49,7 +49,7 @@ Pinout
 
 En la siguiente imagen se muestra el pinout del Devkit, de manera que se puedan asociar las terminales de la tarjeta con las utilizadas en Arduino Uno. 
 
-![devkit_pinout](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/pinout_devkit.png?raw=true)
+![devkit_pinout](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/pinout_devkitV2.png?raw=true)
 
 
 Programación
