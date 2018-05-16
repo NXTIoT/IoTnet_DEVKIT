@@ -27,6 +27,8 @@ NXTIoT_DEVKIT
 	
 	-	[Downlink](#downlink)
 	
+	-	[Envio de Multiples Variables](#envio-de-multiples-variables)
+	
 - 	[Callbacks](#callbacks)
 	
 -	[Devkit Dual Zona 2 y 4](#devkit-dual-zona-2-y-4)
