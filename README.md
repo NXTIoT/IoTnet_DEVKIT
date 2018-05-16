@@ -225,6 +225,12 @@ Y en el serial de arduino, se desplegará la informacion que recibió el disposi
 
 ![dev9](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/down8.png?raw=true)
 
+### Envio de Multiples Variables
+
+En el siguiente link se muestra un ejemplo de como enviar multiples variables dentro de un mensaje con el devkit
+
+https://github.com/NXTIoT/Multiples_variables
+
 Callbacks
 ---------
 
