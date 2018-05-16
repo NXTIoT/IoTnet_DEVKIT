@@ -30,6 +30,12 @@ void leer_distancia()
   distancia = duracion / 2 / 29.1;
   Serial.print("Distancia: ") ;
   Serial.println(distancia) ;
+  
+  //-----------------------------------------------------
+    //AT$SF= comando para mandar la informacion por sigfox
+    //Maximo 12 bytes
+    bufer="AT$SF=";
+    //-----------------------------------------------------
   //agregamos nuestro valor de la distancia al payload a enviar
   add_int(distancia); //un entero menor a 256 ocupa un byte
 
@@ -41,11 +47,6 @@ void loop()
 {
   if (digitalRead(boton)==LOW)
   { 
-    //-----------------------------------------------------
-    //AT$SF= comando para mandar la informacion por sigfox
-    //Maximo 12 bytes
-    bufer="AT$SF=";
-    //-----------------------------------------------------
     leer_distancia();
     delay(1000);
   } 
