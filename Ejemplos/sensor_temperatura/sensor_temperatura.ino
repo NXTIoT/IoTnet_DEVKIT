@@ -23,6 +23,12 @@ void leer_distancia()
   Serial.print("Grados Cº: ");
   float temp=((voltaje)*100);
   Serial.println(temp);
+  
+  //-----------------------------------------------------
+  //AT$SF= comando para mandar la informacion por sigfox
+  //Maximo 12 bytes
+  bufer="AT$SF=";
+  //-----------------------------------------------------
   //agregamos nuestro valor de la temperatura al payload a enviar
   add_float(temp); //un flotante ocupa 4 bytes
 
@@ -33,12 +39,7 @@ void leer_distancia()
 void loop() 
 {
   if (digitalRead(boton)==LOW)
-  { 
-    //-----------------------------------------------------
-    //AT$SF= comando para mandar la informacion por sigfox
-    //Maximo 12 bytes
-    bufer="AT$SF=";
-    //-----------------------------------------------------
+  {
     leer_distancia();
     delay(1000);
   } 
