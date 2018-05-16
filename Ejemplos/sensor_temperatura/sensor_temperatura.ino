@@ -1,96 +1,95 @@
-#define SigfoxDeb
-#include <SoftwareSerial.h>
-#ifdef SigfoxDeb
-SoftwareSerial mySerial(0, 1); // RX, TX
-#endif
-
-const int sensorPin = A0;
-const float baselinetime=20.0;
+//Programa de ejemplo utilizando el sensor de temperatura LM35
+//En este caso el dato en entero es transformado a su 
+//representacion en hexadecimal en 1 flotante a 32 bits en little-endian
 const int boton=6;
-char RespuestaSigfox[50];
-char ID[51];
-char PAC[51];
-
+const int sensorPin = A0;
+//*****************************************************
+String bufer; //variable donde guardaremos nuestro payload
+String bufer2="\n";   //agregamos un salto de linea al final de nuestro payload
+//*****************************************************
 void setup() 
 {
   Serial.begin(9600);
-  #ifdef SigfoxDeb
-  mySerial.begin(9600);
-  #endif
-  //pinMode(4, OUTPUT);
   pinMode(boton, INPUT);
-  pinMode(7, OUTPUT);
-  #ifdef SigfoxDeb
-  mySerial.println("\n\n\n\n\n\n\n\n\rInicio");
-  #endif
+  pinMode(7, OUTPUT);   //enable modulo wisol
 }
 
-void leer_sensor()
+void leer_distancia()
 {
-  String bufer="AT$SF=";
-  char payload[20];
   int sensorVal=analogRead(sensorPin);
   float voltaje=(sensorVal/1024.0)*5;
   Serial.print("Voltaje: ");
   Serial.println(voltaje); 
   Serial.print("Grados Cº: ");
-  float temp=((voltaje)*100)+1;
+  float temp=((voltaje)*100);
   Serial.println(temp);
-  //convierte el dato a bytes y lo agrega a nuestro mensaje a enviar
-  byte* a1 = (byte*) &temp;  
-  String str1;
-  for(int i=0;i<4;i++)
-  {
-    str1=String(a1[i], HEX);
-    if(str1.length()<2)
-    {
-      bufer+=0+str1;
-    }
-    else
-    {
-      bufer+=str1;
-    }
-  }
-  bufer.toCharArray(payload,16);
-  digitalWrite(7, HIGH);
-  delay(1000);
-  enviarcomandoATSigfox("AT");
-  enviarcomandoATSigfox("AT$RC");
-  enviarcomandoATSigfox(payload);
-  digitalWrite(7, LOW);
+  //agregamos nuestro valor de la temperatura al payload a enviar
+  add_float(temp); //un flotante ocupa 4 bytes
+
+  //enviamos nuestro dato por Sigfox
+  send_message(bufer);
 }
 
 void loop() 
 {
   if (digitalRead(boton)==LOW)
-  {
-    leer_sensor();
-    delay(2000);
-  }
+  { 
+    //-----------------------------------------------------
+    //AT$SF= comando para mandar la informacion por sigfox
+    //Maximo 12 bytes
+    bufer="AT$SF=";
+    //-----------------------------------------------------
+    leer_distancia();
+    delay(1000);
+  } 
 }
-
-void enviarcomandoATSigfox(char* comandoAT){
-  unsigned long x=0;
-  #ifdef SigfoxDeb
-  mySerial.print("\r\n\tSigfox-->");
-  mySerial.println(comandoAT);
-  #endif
-  while( Serial.available() > 0) Serial.read();
-  x = 0;
-  memset(RespuestaSigfox, '\0',sizeof(RespuestaSigfox)); 
-  Serial.print(comandoAT);
-  Serial.print("\r\n");
-  while(true){
-    if(Serial.available() != 0){   
-      RespuestaSigfox[x] = Serial.read();
-      x++;
-      if (strstr(RespuestaSigfox, "\n") != NULL){
-        #ifdef SigfoxDeb
-        mySerial.print("Comando OK\n\r");
-        mySerial.println(RespuestaSigfox);
-        #endif
-        break;
-      }
+void add_float(float var1) //funcion para agregar flotantes al payload
+{
+  byte* a1 = (byte*) &var1;    //convertimos el dato a bytes
+  String str1;
+  //agregamos al comando AT$SF= nuestra informacion a enviar
+  for(int i=0;i<4;i++)
+  {
+    str1=String(a1[i], HEX);    //convertimos el valor hex a string 
+    if(str1.length()<2)
+    {
+      bufer+=0+str1;    //si no, se agrega un cero
+    }
+    else
+    {
+      bufer+=str1;    //si esta completo, se copia tal cual
     }
   }
+}
+void add_int(int var2)    //funcion para agregar enteros al payload (hasta 255)
+{
+  byte* a2 = (byte*) &var2; //convertimos el dato a bytes
+  String str2;
+  str2=String(a2[0], HEX);  //convertimos el valor hex a string 
+  //verificamos si nuestro byte esta completo
+  if(str2.length()<2)
+  {
+    bufer+=0+str2;    //si no, se agrega un cero
+  }
+  else
+  {
+    bufer+=str2;     //si esta completo, se copia tal cual
+  }
+}
+void send_message(String payload)
+{
+  //agregamos el salto de linea "\n"
+  bufer+=bufer2;
+  //*******************
+  //Habilitamos el modulo Sigfox
+  digitalWrite(7, HIGH);
+  delay(1000);
+  //Reset del canal para asegurar que manda en la frecuencia correcta
+  Serial.print("AT$RC\n"); 
+  //************************
+  //Enviamos la informacion por sigfox
+  Serial.print(bufer);
+  delay(3000);
+  //deshabilitamos el modulo Sigfox
+  digitalWrite(7, LOW);
 }
