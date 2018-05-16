@@ -4,9 +4,9 @@
 #define echoPin 2
 const int boton=6;
 //*****************************************************
-String bufer;
-String bufer2="\n";
-//*************************
+String bufer; //variable donde guardaremos nuestro payload
+String bufer2="\n";   //agregamos un salto de linea al final de nuestro payload
+//*****************************************************
 void setup() 
 {
   Serial.begin(9600);
