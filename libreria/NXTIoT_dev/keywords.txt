@@ -1,0 +1,5 @@
+NXTIoT_dev	KEYWORD1
+initpayload	KEYWORD2
+sendmessage	KEYWORD2
+addint		KEYWORD2
+addfloat	KEYWORD2
