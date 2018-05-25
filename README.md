@@ -15,11 +15,11 @@ NXTIoT_DEVKIT
 
 -	[Comandos importantes Modulo Wisol](#comandos-importantes-modulo-wisol)
 
--	[Libreria](#libreria)
+-	[Librería](#librería)
 
 	-	[Instalación](#instalación)
 	
-	-	[Funciones de la libreria](#funciones-de-la-libreria)
+	-	[Funciones de la librería](#funciones-de-la-librería)
 
 -	[Ejemplos](#ejemplos)
 
@@ -112,7 +112,7 @@ El modulo Wisol de conectividad Sigfox es un "pequeño" modem mediante el cual e
 -	AT$RC	:	Reset del módulo. Este comando debe utilizarse antes de mandar cualquier informacion por Sigfox.
 -	AT$SF=	:	Comando para enviar datos (hasta 12 bytes en hexadecimal)
 
-Libreria
+Librería
 --------
 
 Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/programa_base.ino)) que puede ser usado para cualquier 
@@ -140,7 +140,7 @@ Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Li
 
 ![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
 
-### Funciones de la libreria
+### Funciones de la librería
 
 -	initpayload(): inicializa nuestro Payload con el comando "AT$SF=". (No recibe ningún argumento.)
 
