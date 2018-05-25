@@ -15,6 +15,8 @@ NXTIoT_DEVKIT
 
 -	[Comandos importantes Modulo Wisol](#comandos-importantes-modulo-wisol)
 
+-	[Libreria](#libreria)
+
 -	[Ejemplos](#ejemplos)
 
 	-	[Leer ID/PAC](#leer-idpac)
@@ -28,8 +30,6 @@ NXTIoT_DEVKIT
 	-	[Downlink](#downlink)
 	
 	-	[Envio de Multiples Variables](#envio-de-multiples-variables)
-	
--	[Libreria](#libreria)
 	
 - 	[Callbacks](#callbacks)
 	
@@ -108,6 +108,35 @@ El modulo Wisol de conectividad Sigfox es un "pequeño" modem mediante el cual e
 -	AT$RC	:	Reset del módulo. Este comando debe utilizarse antes de mandar cualquier informacion por Sigfox.
 -	AT$SF=	:	Comando para enviar datos (hasta 12 bytes en hexadecimal)
 
+Libreria
+--------
+
+Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base que puede ser usado para cualquier 
+proyecto que se quiera realizar con el Devkit
+
+### Instalación
+
+Abrir en otra ventana el siguiente link
+
+https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
+
+Dar click en Clone or download -> Download ZIP
+
+![lib11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib11.png?raw=true)
+
+Una vez descargada, descomprimimos el archivo .ZIP y copiamos la carpeta "NXTIoT_dev"
+
+![lib12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib12.png?raw=true)
+
+nos dirigimos a la carpeta donde se encuentran las librerías de Arduino y pegamos la carpeta. Comúnmente es Documentos -> Arduino -> libraries.
+
+![lib13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib13.png?raw=true)
+
+Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Libreria", veremos que ya aparece en la lista de librerías.
+
+![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
+
+![lib15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib15.png?raw=true)
 
 Ejemplos
 --------
@@ -234,41 +263,6 @@ Y en el serial de arduino, se desplegará la informacion que recibió el disposi
 En el siguiente link se muestra un ejemplo de como enviar multiples variables dentro de un mensaje con el devkit
 
 https://github.com/NXTIoT/Multiples_variables
-
-Libreria
---------
-
-Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base que puede ser usado para cualquier 
-proyecto que se quiera realizar con el Devkit
-
-### Instalación
-
-Abrir en otra ventana el siguiente link
-
-https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
-
-Dar click en Clone or download -> Download ZIP
-
-![lib11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib11.png?raw=true)
-
-Una vez descargada, descomprimimos el archivo .ZIP y copiamos la carpeta "NXTIoT_dev"
-
-![lib12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib12.png?raw=true)
-
-nos dirigimos a la carpeta donde se encuentran las librerias de Arduino y pegamos la carpeta. Comúnmente es Documentos -> Arduino -> libraries.
-
-![lib13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib13.png?raw=true)
-
-Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Libreria", veremos que la libreria nos aparecerá. Con esto ya tenemos la libreria instalada.
-
-![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
-
-![lib15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib15.png?raw=true)
-
-
-En el siguiente link se muestra el proceso de instalación de la libreria "NXTIoT_dev.h" desarrollada para el Devkit. Asi como tambien ejemplos de su uso.
-
-
 
 Callbacks
 ---------
