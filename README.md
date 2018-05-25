@@ -111,7 +111,7 @@ El modulo Wisol de conectividad Sigfox es un "pequeño" modem mediante el cual e
 Libreria
 --------
 
-Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base que puede ser usado para cualquier 
+Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/programa_base.ino))que puede ser usado para cualquier 
 proyecto que se quiera realizar con el Devkit
 
 ### Instalación
@@ -135,8 +135,6 @@ nos dirigimos a la carpeta donde se encuentran las librerías de Arduino y pegam
 Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Libreria", veremos que ya aparece en la lista de librerías.
 
 ![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
-
-![lib15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib15.png?raw=true)
 
 Ejemplos
 --------
