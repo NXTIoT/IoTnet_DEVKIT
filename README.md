@@ -238,6 +238,17 @@ https://github.com/NXTIoT/Multiples_variables
 Libreria
 --------
 
+![lib11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib11.png?raw=true)
+
+![lib12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib12.png?raw=true)
+
+![lib13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib13.png?raw=true)
+
+![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
+
+![lib15](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib15.png?raw=true)
+
+
 En el siguiente link se muestra el proceso de instalación de la libreria "NXTIoT_dev.h" desarrollada para el Devkit. Asi como tambien ejemplos de su uso.
 
 https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
