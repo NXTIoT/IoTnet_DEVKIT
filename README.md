@@ -238,11 +238,28 @@ https://github.com/NXTIoT/Multiples_variables
 Libreria
 --------
 
+Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base que puede ser usado para cualquier 
+proyecto que se quiera realizar con el Devkit
+
+### Instalación
+
+Abrir en otra ventana el siguiente link
+
+https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
+
+Dar click en Clone or download -> Download ZIP
+
 ![lib11](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib11.png?raw=true)
+
+Una vez descargada, descomprimimos el archivo .ZIP y copiamos la carpeta "NXTIoT_dev"
 
 ![lib12](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib12.png?raw=true)
 
+nos dirigimos a la carpeta donde se encuentran las librerias de Arduino y pegamos la carpeta. Comúnmente es Documentos -> Arduino -> libraries.
+
 ![lib13](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib13.png?raw=true)
+
+Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Libreria", veremos que la libreria nos aparecerá. Con esto ya tenemos la libreria instalada.
 
 ![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
 
@@ -251,7 +268,7 @@ Libreria
 
 En el siguiente link se muestra el proceso de instalación de la libreria "NXTIoT_dev.h" desarrollada para el Devkit. Asi como tambien ejemplos de su uso.
 
-https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
+
 
 Callbacks
 ---------
