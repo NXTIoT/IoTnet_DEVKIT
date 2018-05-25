@@ -199,7 +199,7 @@ Si revisamos el backend, veremos que cada mensaje nos mostrara la misma informac
 
 En este ejemplo se mostrará como leer un sensor analógico además de realizar la codificación del dato antes de ser enviado y ya en el backend, se realizará la decodificación para poder visualizar la información en forma decimal. 
 
-Descargar el sketch ([Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino)). El sensor utilizado en este ejemplo es el LM35
+Descargar el sketch (sin usar librerías [Code](Ejemplos/sensor_temperatura/sensor_temperatura.ino)) - (con librerías [code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/Ejemplos_libreria/temp_float.ino)). El sensor utilizado en este ejemplo es el LM35
 
 ![tmp36](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/tmp36.jpg?raw=true)
 
