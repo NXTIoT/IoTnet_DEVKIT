@@ -17,6 +17,10 @@ NXTIoT_DEVKIT
 
 -	[Libreria](#libreria)
 
+	-	[Instalación](#instalación)
+	
+	-	[Funciones de la libreria](#funciones-de-la-libreria)
+
 -	[Ejemplos](#ejemplos)
 
 	-	[Leer ID/PAC](#leer-idpac)
@@ -111,7 +115,7 @@ El modulo Wisol de conectividad Sigfox es un "pequeño" modem mediante el cual e
 Libreria
 --------
 
-Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/programa_base.ino))que puede ser usado para cualquier 
+Para simplificar el codigo, se creó la libreria "NXTIoT_dev.h". A continuación se mostrará el proceso de intalacion y un codigo base ([code](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/Ejemplos/programa_base.ino)) que puede ser usado para cualquier 
 proyecto que se quiera realizar con el Devkit
 
 ### Instalación
@@ -135,6 +139,16 @@ nos dirigimos a la carpeta donde se encuentran las librerías de Arduino y pegam
 Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Libreria", veremos que ya aparece en la lista de librerías.
 
 ![lib14](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/lib14.png?raw=true)
+
+### Funciones de la libreria
+
+-	initpayload(): inicializa nuestro Payload con el comando "AT$SF=". (No recibe ningún argumento.)
+
+-	addint(int var): función para agregar un entero representado a un byte (recibe un entero de 0 a 255 ó -127 a 127 como argumento.)
+
+-	addfloat(float var): función para agregar un flotante representado a 4 bytes en formato little-endian. (Recibe un flotante como argumento.)
+
+-	sendmessage(): Envia la información a traves de Sigfox. Maximo 12 bytes. (No recibe argumento.) 
 
 Ejemplos
 --------
