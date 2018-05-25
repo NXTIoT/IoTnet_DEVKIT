@@ -29,6 +29,8 @@ NXTIoT_DEVKIT
 	
 	-	[Envio de Multiples Variables](#envio-de-multiples-variables)
 	
+-	[Libreria](#libreria)
+	
 - 	[Callbacks](#callbacks)
 	
 -	[Devkit Dual Zona 2 y 4](#devkit-dual-zona-2-y-4)
@@ -232,6 +234,13 @@ Y en el serial de arduino, se desplegará la informacion que recibió el disposi
 En el siguiente link se muestra un ejemplo de como enviar multiples variables dentro de un mensaje con el devkit
 
 https://github.com/NXTIoT/Multiples_variables
+
+Libreria
+--------
+
+En el siguiente link se muestra el proceso de instalación de la libreria "NXTIoT_dev.h" desarrollada para el Devkit. Asi como tambien ejemplos de su uso.
+
+https://github.com/NXTIoT/Libreria_Devkit_NXTIoT
 
 Callbacks
 ---------
