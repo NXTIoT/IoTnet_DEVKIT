@@ -14,7 +14,7 @@ void setup()
   pinMode(7, OUTPUT);   //enable modulo wisol
 }
 
-void leer_distancia()
+void leer_temperatura()
 {
   int sensorVal=analogRead(sensorPin);
   float voltaje=(sensorVal/1024.0)*5;
@@ -40,7 +40,7 @@ void loop()
 {
   if (digitalRead(boton)==LOW)
   {
-    leer_distancia();
+    leer_temperatura();
     delay(1000);
   } 
 }
