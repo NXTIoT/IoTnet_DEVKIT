@@ -152,6 +152,7 @@ Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Li
 
 Ejemplos
 --------
+
 A continuación, se presentan varios ejemplos donde se utilizan las entradas analógicas y digitales, además de los dispositivos integrados en el Devkit. Se presentan programas de ejemplo utilizando la libreria "NXTIoT_dev" y sin la libreria.
 
 ### Leer ID/PAC
