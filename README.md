@@ -73,12 +73,13 @@ Para cargar un programa a la tarjeta, primero se deben quitar los jumpers (o jum
 
 El Devkit 2.0 es una mejora de la versión 1.0. Los cambios significativos son los siguientes:
 
--	Sustituye los pines y jumpers de programación por un switch. Posición del switch a la *izquierda* para programar el microcontrolador y hacia la *derecha*, para restablecer la comunicación entre el microcontrolador y el módulo de comunicación Sigfox.
+-	Sustituye los pines y jumpers de programación por un switch. 
 -	Se cambiaron los botones de Reset (rojo) y el botón programable (azul) para su facil identificación.
-
 -	Se movió el módulo de comunicación Sigfox, de manera que las I/O quedan del lado izquierdo.
 
 *Los cambios anteriores no afectan nada en cuanto a programación, por lo que los programas para el Devkit 1.0 funcionan en la versión 2.0.* 
+
+Para cargar un programa en el Devkit 2.0, poner el switch a la *izquierda* para programar el microcontrolador y hacia la *derecha*, para restablecer la comunicación entre el microcontrolador y el módulo de comunicación Sigfox.
 
 ![devkit2mod](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/devkit2mod.png?raw=true)
 
