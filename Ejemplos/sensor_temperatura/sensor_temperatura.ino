@@ -17,7 +17,7 @@ void setup()
 void leer_temperatura()
 {
   int sensorVal=analogRead(sensorPin);
-  float voltaje=((sensorVal/1024.0)-0.5)*5;
+  float voltaje=((sensorVal/1024.0))*5;
   Serial.print("Voltaje: ");
   Serial.println(voltaje); 
   Serial.print("Grados Cº: ");
