@@ -151,6 +151,17 @@ Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Li
 
 -	sendmessage(): Envia la información a traves de Sigfox. Maximo 12 bytes. (No recibe argumento.) 
 
+Introducción al Backend
+-----------------------
+
+Antes de comenzar con la tarjeta de desarrollo, es necesario tener una cuenta en el backend. Ir al siguiente link
+
+https://backend.sigfox.com/auth/login
+
+
+
+
+
 Ejemplos
 --------
 
