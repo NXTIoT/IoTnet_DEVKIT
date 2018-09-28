@@ -154,13 +154,22 @@ Abrimos el IDE de Arduino. Si damos click en la pestaña "Programa -> Incluir Li
 Introducción al Backend
 -----------------------
 
-Antes de comenzar con la tarjeta de desarrollo, es necesario tener una cuenta en el backend. Ir al siguiente link
+Antes de comenzar con la tarjeta de desarrollo y los ejemplos, es necesario conocer un poco sobre el backend de Sigfox. 
+Una vez que se tiene una cuenta en el backend, ir al siguiente link:
 
 https://backend.sigfox.com/auth/login
 
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck1.png?raw=true)
 
+Ingresamos con nuestras credenciales
 
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck2.png?raw=true)
 
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck3.png?raw=true)
+
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck4.png?raw=true)
+
+![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck5.png?raw=true)
 
 Ejemplos
 --------
