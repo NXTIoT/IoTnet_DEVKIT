@@ -161,9 +161,13 @@ https://backend.sigfox.com/auth/login
 
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck1.png?raw=true)
 
-Ingresamos con nuestras credenciales
+Ingresamos con nuestras credenciales. Nos aparecerá la pagina principal del backend, en donde se muestran las actualizaciones que se van liberando.
+Para ver los dispositivos en nuestra cuenta, damos click en la pestaña "DEVICE"
 
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck2.png?raw=true)
+
+entonces nos aparecerán los dispositivos asociados a nuestra cuenta. Un circulo Negro en la columna de "Communication Status" significa que a nuestro dispositivo se le terminó el año de conectividad, de lo contrario unicamente aparecera un circulo gris.
+Para buscar un dispositivo, unicamente tenemos que ingresar el ID en el recuadro 
 
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck3.png?raw=true)
 
