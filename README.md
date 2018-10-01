@@ -167,11 +167,16 @@ Para ver los dispositivos en nuestra cuenta, damos click en la pestaña "DEVICE"
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck2.png?raw=true)
 
 entonces nos aparecerán los dispositivos asociados a nuestra cuenta. Un circulo Negro en la columna de "Communication Status" significa que a nuestro dispositivo se le terminó el año de conectividad, de lo contrario unicamente aparecera un circulo gris.
-Para buscar un dispositivo, unicamente tenemos que ingresar el ID en el recuadro 
+Cuando tenemos varios dispositivos, podemos buscar un dispositivo en específico dentro de nuestra lista de dispositivos, unicamente ingresando el ID que nos interesa en el recuadro y presionar "Enter".
+Damos click en el ID del dispositivo
 
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck3.png?raw=true)
 
+enseguida nos desplegará la información del dispositivo. En la parte izquierda, damos click en "MESSAGES"
+
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck4.png?raw=true)
+
+ahora nos mostrará todos los mensajes que ha enviado nuestro dispositivo, en caso de ya haber mandado, de lo contrario no mostrará nada hasta que enviemos mensajes con nuestro Devkit.
 
 ![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck5.png?raw=true)
 
