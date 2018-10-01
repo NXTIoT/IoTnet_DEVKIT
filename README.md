@@ -160,7 +160,8 @@ Introducción al Backend
 
 Antes de comenzar con la tarjeta de desarrollo y los ejemplos, es necesario conocer un poco sobre el backend de Sigfox. 
 
-El backend de Sigfox es un Gateway por donde pasan los mensajes antes de ser enviados hacia su destino (base de datos, un servidor, etc), por lo que todos los mensajes enviados por dispositivos con comunicación Sigfox primero llegaran al backend.
+El backend de Sigfox es un Gateway por donde pasan los mensajes antes de ser enviados hacia su destino (base de datos, un servidor, etc), por lo que todos los mensajes enviados por dispositivos con comunicación Sigfox primero llegaran al backend. 
+Por medio de los Device Types, podemos configurar hacia donde redirigimos la información de nuestros dispositivos.
 
 Una vez que se tiene una cuenta en el backend, ir al siguiente link:
 
