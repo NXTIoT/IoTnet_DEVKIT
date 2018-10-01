@@ -54,6 +54,8 @@ A lo largo de este proyecto, se presentarán algunos ejemplos para demostrar lo 
 
 La tarjeta ya trae un programa precargado, con el que se obtiene el ID y el PAC del  modulo Wisol al presionar el boton, ademas, de mandar un mensaje por Sigfox.
 
+Adicionalmente, se mostraran ejemplos de callback hacia diferentes plataformas para IoT (Microsoft Azure, AWS, IBM Watson, Losant, etc) enviando los datos recibidos en el backend hacia estas plataformas, para posteriormente procesar los datos y mostrar la información en un dashboard.
+
 Pinout
 ------
 
@@ -312,9 +314,27 @@ https://github.com/NXTIoT/Multiples_variables
 Callbacks
 ---------
 
-Ir a la siguiente liga para ver la informacion sobre la creación de callbacks hacia diferentes plataformas.
+A continuación se muestran varios links para configurar los callbacks hacia diferentes plataformas.
+
+### Microsoft Azure, AWS, Ubidots, Thinger Io 
 
 https://github.com/NXTIoT/Callbacks-hacia-plataformas
+
+### Losant
+
+https://github.com/NXTIoT/Callback_Losant
+
+### Hoja de calculo en Google Drive
+
+https://github.com/NXTIoT/Sigfox_y_google_sheets
+
+### IBM Watson
+
+https://github.com/NXTIoT/Callback_IBM_Watson
+
+### Firebase
+
+https://github.com/NXTIoT/Callback-Firebase
 
 Devkit Dual Zona 2 y 4
 ----------------------
