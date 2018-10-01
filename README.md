@@ -159,17 +159,17 @@ Una vez que se tiene una cuenta en el backend, ir al siguiente link:
 
 https://backend.sigfox.com/auth/login
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck1.png?raw=true)
+![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck1.png?raw=true)
 
 Ingresamos con nuestras credenciales
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck2.png?raw=true)
+![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck2.png?raw=true)
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck3.png?raw=true)
+![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck3.png?raw=true)
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck4.png?raw=true)
+![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck4.png?raw=true)
 
-![dev2](https://github.com/Iotnet/IoTnet_DEVKIT/blob/master/images/bck5.png?raw=true)
+![dev2](https://github.com/NXTIoT/NXTIoT_DEVKIT/blob/master/images/bck5.png?raw=true)
 
 Ejemplos
 --------
