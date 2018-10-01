@@ -21,7 +21,7 @@ NXTIoT_DEVKIT
 	
 	-	[Funciones de la librería](#funciones-de-la-librería)
 	
--	[Introducción al Backend](#Introducción-al-backend)
+-	[Introducción al Backend](#introducción-al-backend)
 
 -	[Ejemplos](#ejemplos)
 
