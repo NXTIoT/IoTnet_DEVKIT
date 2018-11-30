@@ -1,3 +1,14 @@
+/*
+Mediante el servicio de Geolocalización de Sigfox se han obtenido las siguientes coordenadas:
+
+  "time": {time},
+  "deviceId": "{device}",
+  "seqNumber":{seqNumber}
+
+
+locate on Google Maps: http://maps.google.com/maps?z=12&t=m&q={lat}+{lng}
+
+*/
 //Programa de ejemplo para enviar informacion por medio de Sigfox
 //representacion en hexadecimal de un entero (1 byte) o de un 1 flotante a 32 bits en little-endian
 //Al presionar el boton azul se envia un mensaje
