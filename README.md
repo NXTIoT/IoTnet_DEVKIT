@@ -322,7 +322,7 @@ Callbacks
 
 A continuación se muestran varios links para configurar los callbacks hacia diferentes plataformas.
 
-### Microsoft Azure, AWS, Ubidots, Thinger Io 
+### Microsoft Azure, Ubidots, Thinger Io 
 
 https://github.com/NXTIoT/Callbacks-hacia-plataformas
 
@@ -341,6 +341,10 @@ https://github.com/NXTIoT/Callback_IBM_Watson
 ### Firebase
 
 https://github.com/NXTIoT/Callback-Firebase
+
+### Amazon AWS
+
+https://github.com/NXTIoT/Callback-Amazon-AWS
 
 Devkit Dual Zona 2 y 4
 ----------------------
