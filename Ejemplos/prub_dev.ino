@@ -18,6 +18,8 @@ lat::float:32:little-endian lng::float:32:little-endian temp::int:8 bat::int:8
 
 /*
 {
+"temp" : "{}",
+"bat" : "{}",
 "position" :{"value":1,"context":{"lat":"{lat}","lng":"{lng}"}}
 }
 */
