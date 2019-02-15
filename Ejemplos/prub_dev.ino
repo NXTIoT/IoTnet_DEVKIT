@@ -12,6 +12,8 @@ locate on Google Maps: http://maps.google.com/maps?z=12&t=m&q={lat}+{lng}
 
 /*
 http://things.ubidots.com/api/v1.6/devices/{device}/?token=YOUR_TOKEN
+
+lat::float:32:little-endian lng::float:32:little-endian temp::int:8 bat::int:8
 */
 
 /*
