@@ -9,6 +9,16 @@ Mediante el servicio de Geolocalización de Sigfox se han obtenido las siguiente
 locate on Google Maps: http://maps.google.com/maps?z=12&t=m&q={lat}+{lng}
 
 */
+
+/*
+http://things.ubidots.com/api/v1.6/devices/{device}/?token=YOUR_TOKEN
+*/
+
+/*
+{
+"position" :{"value":1,"context":{"lat":"{lat}","lng":"{lng}"}}
+}
+*/
 //Programa de ejemplo para enviar informacion por medio de Sigfox
 //representacion en hexadecimal de un entero (1 byte) o de un 1 flotante a 32 bits en little-endian
 //Al presionar el boton azul se envia un mensaje
@@ -38,11 +48,11 @@ void function()
 {
   //-----------------------------------------------------
   //tu codigo
-  float latitud= 19.199934;
-  float longitud= -96.159825;
+  float latitud= 19.114276;
+  float longitud= -103.775097;
   int bat =85;
   randomSeed(analogRead(A0));    // genera una semilla para aleatorio a partir de la función millis()
-  randNumber = random(2000,2500);
+  randNumber = random(2000,2800);
   float temp=randNumber/100.0;
   randomSeed(analogRead(A1));    // genera una semilla para aleatorio a partir de la función millis()
   randNumber = random(3000,3200);
