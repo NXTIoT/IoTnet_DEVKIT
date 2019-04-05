@@ -31,7 +31,7 @@ void leer_info()
   enviarcomandoATSigfox("AT$I=11");
   strcpy(PAC,RespuestaSigfox);
   enviarcomandoATSigfox("AT$RC");
-  enviarcomandoATSigfox("AT$SF=0102030405");
+  enviarcomandoATSigfox("AT$SF=486F6C61206D756E646F");
   digitalWrite(7, LOW);
   delay(500);
   Serial.print("\n\n\n\rID: ");
