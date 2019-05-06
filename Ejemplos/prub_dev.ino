@@ -52,8 +52,8 @@ void function()
 {
   //-----------------------------------------------------
   //tu codigo
-  float latitud= 19.114276;
-  float longitud= -103.775097;
+  float latitud= 22.119226;
+  float longitud= -101.017576;
   int bat =85;
   randomSeed(analogRead(A0));    // genera una semilla para aleatorio a partir de la función millis()
   randNumber = random(2000,2800);
