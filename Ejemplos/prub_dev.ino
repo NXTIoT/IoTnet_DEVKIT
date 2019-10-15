@@ -10,17 +10,21 @@ locate on Google Maps: http://maps.google.com/maps?z=12&t=m&q={lat}+{lng}
 
 */
 
-/*
-http://things.ubidots.com/api/v1.6/devices/{device}/?token=YOUR_TOKEN
+/****************************************
 
 lat::float:32:little-endian lng::float:32:little-endian temp::int:8 bat::int:8
+
+https://api.thinger.io/v1/users/{user_id}/buckets/{bucket_id}/data
+
 */
 
 /*
 {
-"temp" : "{}",
-"bat" : "{}",
-"position" :{"value":1,"context":{"lat":"{lat}","lng":"{lng}"}}
+"device" : "{device}",
+"longitud" : "{customData#lng}",
+"latitud" : "{customData#lat}",
+"temp" : "{customData#temp}",
+"bateria" : "{customData#bat}"
 }
 */
 //Programa de ejemplo para enviar informacion por medio de Sigfox
