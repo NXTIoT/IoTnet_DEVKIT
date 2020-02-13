@@ -50,7 +50,7 @@ void function()
   add_float(temp);
 
   //enviamos nuestro dato por Sigfox
-  //send_message(bufer);
+  send_message(bufer);
 }
 void add_float(float var1) //funcion para agregar flotantes al payload en formato little-endian
 {
