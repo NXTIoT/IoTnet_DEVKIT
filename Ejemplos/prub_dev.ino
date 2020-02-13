@@ -56,15 +56,7 @@ void function()
 {
   //-----------------------------------------------------
   //tu codigo
-  float latitud= 19.541219;
-  float longitud= -96.927135;
-  int bat =85;
-  randomSeed(analogRead(A0));    // genera una semilla para aleatorio a partir de la función millis()
-  randNumber = random(2000,2800);
-  float temp=randNumber/100.0;
-  randomSeed(analogRead(A1));    // genera una semilla para aleatorio a partir de la función millis()
-  randNumber = random(3000,3200);
-  float hum=randNumber/100.0;
+  
 
   
   /*-----------------------------------------------------
@@ -74,10 +66,7 @@ void function()
   
   /**************************************************
   agregamos nuestra variable al payload a enviar*/
-  add_float(latitud);
-  add_float(longitud);
-  add_int(temp);
-  add_int(bat);
+
   //add_int(variable_int); //un entero ocupa 1 byte
   //add_float(variable_float); //un flotante ocupa 4 bytes
   
