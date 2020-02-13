@@ -46,11 +46,11 @@ void setup()
 
 void loop() 
 {
-  //if (digitalRead(boton)==LOW)
-  //{
+  if (digitalRead(boton)==LOW)
+  {
     function();
-    delay(120000);
-  //} 
+    delay(2000);
+  } 
 }
 void function()
 {
